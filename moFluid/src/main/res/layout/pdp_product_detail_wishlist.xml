@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_pdp_product_detail_wishlist"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/txtv_pdp_product_name"
+        android:paddingStart="@dimen/padding_pdp_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_value"
+        android:gravity="center_vertical"
+        android:layout_weight="50"
+        android:textSize="@dimen/font_size_level_twopoint"
+        android:textColor="@color/font_pdp_product_name"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:padding="8dp"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_weight="50">
+    <ImageButton
+        android:id="@+id/pdp_image_share"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/share"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_above="@+id/rl_pager"
+        android:paddingEnd="5dp"
+        android:layout_marginEnd="10dp"
+        android:paddingStart="5dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="end"/>
+    </RelativeLayout>
+
+   <!-- <TextView
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/DarkGray"/>
+    <RelativeLayout
+        android:id="@+id/rl_pdp_add_to_wishlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="70"
+        android:padding="@dimen/padding_pdp_heading">
+
+        <ImageView
+            android:id="@+id/imgv_add_to_wishlist"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:src="@drawable/heart"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/txtv_pdp_wishlist_text"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:text="@string/favourite"
+            android:textSize="11sp"
+            android:textColor="@color/font_pdp_favourite"
+            android:layout_below="@+id/imgv_add_to_wishlist"/>
+
+    </RelativeLayout>
+-->
+</LinearLayout>
+
+

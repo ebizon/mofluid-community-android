@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="#ffffffff"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/txtVTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/out_of_stock_products"
+        android:textSize="@dimen/font_size_level_one"
+        android:textColor="@color/font_black_color"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="15dp"
+        />
+    <ListView
+        android:id="@+id/listVOutOfStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/appbar_divider_color"
+        android:layout_below="@+id/txtVTitle"
+        android:layout_above="@+id/btnBialog"
+        android:layout_marginBottom="10dp"
+        android:dividerHeight="1dp">
+    </ListView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/ok"
+        android:id="@+id/btnBialog"
+        android:layout_below="@+id/tvMessage"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/custome_btn_background"
+        android:textSize="@dimen/font_size_level_two"
+        android:textAlignment="center"
+        android:textDirection="anyRtl"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/font_white_color" /><!--  <TextView
+        android:id="@+id/txtVTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/out_of_stock_products"
+        android:textSize="@dimen/font_size_level_one"
+        android:textColor="@color/font_black_color"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="15dp"
+        />
+
+    <ListView
+        android:id="@+id/listVOutOfStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/divider_color"
+        android:layout_below="@+id/txtVTitle"
+        android:dividerHeight="1dp">
+    </ListView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/ok"
+        android:id="@+id/btnBialog"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="10dp"
+        android:background="#ff0000"
+        android:textSize="@dimen/font_size_level_two"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/listVOutOfStock"
+        android:textColor="@color/font_white_color" />-->
+
+</RelativeLayout>

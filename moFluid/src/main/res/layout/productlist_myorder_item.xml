@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/date_time"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="24dp"
+        android:paddingStart="15dp"
+        android:visibility="gone"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="2dp"
+        android:textSize="@dimen/featured_new_product_font_size"
+        android:textColor="@color/font_pdp_product_name"
+        android:background="@color/app_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/width_my_order"
+            android:layout_height="@dimen/height_my_order_pic"
+            android:layout_margin="2dp"
+            android:src="@drawable/default_mofluid"
+            android:padding="5dp"
+            android:id="@+id/my_order_image"/>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="match_parent"
+            android:background="@color/bg_home_grey_color"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="15dp">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/my_order_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/product_name"
+                android:textAlignment="viewStart"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/font_pdp_product_name"
+                android:textSize="@dimen/font_pdp_review_description"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp">
+
+                <ImageView
+                    android:id="@+id/imgv_order_status"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/processing"
+                    android:paddingEnd="3dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
+                    android:layout_alignParentStart="true"/>
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_toEndOf="@+id/imgv_order_status"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/featured_new_product_font_size"
+                    android:textColor="@color/font_review_title"
+                    android:text="@string/order_status"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                android:ellipsize="end"
+                android:text="Product Price"
+                android:id="@+id/my_order_product_price"
+                android:layout_marginTop="3dp"
+                android:textSize="@dimen/font_pdp_review_description"
+                android:textColor="@color/font_red_color"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_marginTop="@dimen/margin_reorder_top"
+                    android:id="@+id/reorder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_reorder"
+                    android:textColor="@color/DarkBlue"
+                    android:textSize="@dimen/featured_new_product_font_size"
+                    android:padding="3dp"
+                    android:layout_alignParentStart="true"
+                    android:visibility="visible"
+                    android:clickable="true" />
+
+                <TextView
+                    android:id="@+id/vieworder"
+                    android:layout_marginTop="@dimen/margin_reorder_top"
+                    android:paddingTop="3dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/txt_view_order"
+                    android:textColor="@color/DarkBlue"
+                    android:clickable="true"
+                    android:textSize="@dimen/featured_new_product_font_size" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_home_grey_color"
+        android:id="@+id/divider"
+
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/navigatetxt_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/DarkBlue"
+        android:background="@color/app_color"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="@dimen/font_size_level_twopoint"
+        android:text="@string/txt_see_more"/>
+
+</LinearLayout>

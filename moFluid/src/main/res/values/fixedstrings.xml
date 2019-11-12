@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id">415189455672045</string>
+    <string name="fb_login_protocol_scheme">fb415189455672045</string>
+    <string name="total_value" translatable="false">$0</string>
+    <string name="font_red_color" translatable="false">#ff0000</string>
+    <string name="font_green_color" translatable="false">#00ff00</string>
+    <string name="paypal_standersd" translatable="false">Paypal Standard</string>
+    <string name="anet" translatable="false">Authorized.net</string>
+    <string name="title_activity_transaction_result" translatable="false">TransactionResultActivity</string>
+    <string name="title_activity_navigation" translatable="false">NavigationActivity</string>
+    <string name="exp_date_hint" translatable="false">MM/YY</string>
+    <string name="exp_date_format_error_message" translatable="false">MM/YY</string>
+    <string name="recycler_view_date_text" translatable="false">Date</string>
+    <string name="loginID_icon" translatable="false">Login Icon</string>
+    <string name="calendar_icon" translatable="false">Calendar Icon</string>
+    <string name="blank_header" translatable="false"></string>
+    <string name="mydownload_service" translatable="false">mydownloads</string>
+    <string name="wishlist_message_login" translatable="false">Guest user</string>
+
+</resources>

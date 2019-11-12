@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="0dp"
+    android:background="@color/White"
+
+    >
+    <TextView
+        android:id="@+id/txtV_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textSize="@dimen/font_size_level_two"
+        android:textColor="@color/HintColor"
+        android:paddingStart="10dp"
+        android:textDirection="anyRtl"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/selector_white"
+        android:text="Item Name"/>
+
+</LinearLayout>

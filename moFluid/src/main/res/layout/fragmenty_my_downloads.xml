@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/no_downloads_product"
+       android:layout_centerInParent="true"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="@dimen/font_size_level_one"
+        android:id="@+id/no_downloads"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_downloads_list"
+        android:fadingEdge="none"></ListView>
+</RelativeLayout>
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

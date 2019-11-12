@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8sp"
+                    android:paddingTop="8sp"
+                    android:paddingBottom="8sp"
+                    android:text="DropDown1"
+                    android:id="@+id/textarealabel"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8sp"
+                    android:text="*"
+                    android:visibility="gone"
+                    android:textColor="@color/Red"
+                    android:id="@+id/arearequiredstar"/>
+            </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtV_row_area_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="@string/enter"
+            android:gravity="start"
+            android:layout_margin="10dp"
+            android:textColor="@color/font_black_color"
+            android:minHeight="80dp"
+            android:padding="5dp"
+            android:textSize="@dimen/font_size_level_two"
+            android:background="@drawable/custome_rectangle_border"
+
+            />
+    </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

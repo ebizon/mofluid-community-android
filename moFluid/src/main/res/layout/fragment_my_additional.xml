@@ -1,0 +1,106 @@
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"   >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_white"
+            android:paddingTop="20dp">
+
+            <LinearLayout
+            android:id="@+id/ll_show_"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_white"
+                android:visibility="gone"
+            android:paddingTop="0dp">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fadingEdge="none">
+                    <LinearLayout
+
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                   >
+            <TextView
+                android:id="@+id/txtV_pro_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_heading"
+                android:textColor="@color/font_black_color"
+                android:textDirection="anyRtl"
+                android:textAlignment="viewStart"
+                android:paddingStart="@dimen/padding_left"
+                android:paddingEnd="@dimen/padding_right"
+                android:text="@string/product_name"/>
+
+            <TextView
+                android:id="@+id/txtV_pro_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_heading"
+                android:textColor="@color/font_red_color"
+                android:paddingStart="@dimen/padding_left"
+                android:textDirection="anyRtl"
+                android:textAlignment="viewStart"
+                android:paddingEnd="@dimen/padding_right"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/bg_home_grey_color"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/padding_left"
+                android:paddingEnd="@dimen/padding_right"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/txtV_pro_additional_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_size_heading"
+                    android:textColor="@color/font_black_color"
+                    android:layout_marginTop="20dp"
+                    android:textDirection="anyRtl"
+                    android:textAlignment="viewStart"
+                    android:text="@string/additional_information"/>
+
+                <TextView
+                    android:id="@+id/txtV_pro_additional_info_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_size_level_two"
+                    android:textDirection="anyRtl"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/font_color_black_light"
+                    android:layout_marginTop="10dp"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+                </LinearLayout>
+
+
+                <com.mofluid.magento2.custome.widget.CustomePullListview
+                    android:layout_marginTop="0dp"
+                    android:id="@+id/listV_additional_info"
+                    android:layout_width="match_parent"
+                    android:divider="@null"
+                    android:visibility="gone"
+                    android:fadingEdge="none"
+                    android:layout_height="wrap_content">
+
+                </com.mofluid.magento2.custome.widget.CustomePullListview>
+            </LinearLayout>
+
+
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/res/values-sw720dp-land/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "251",
+                        "endColumns": "54",
+                        "endOffsets": "301"
+                    }
+                },
+                {
+                    "source": "/home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/res/values-sw720dp-land/dimens.xml",
+                    "from": {
+                        "startLines": "6,8,7,10",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "200,303,259,351",
+                        "endColumns": "58,46,43,45",
+                        "endOffsets": "254,345,298,392"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,205",
+                        "endColumns": "58,46,43,45",
+                        "endOffsets": "109,156,200,246"
+                    }
+                }
+            ]
+        }
+    ]
+}

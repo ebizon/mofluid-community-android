@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_weight="2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8sp"
+            android:paddingTop="8sp"
+            android:paddingBottom="8sp"
+            android:text="DropDown1"
+            android:id="@+id/dropdwnlabel"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8sp"
+                android:text="*"
+                android:visibility="gone"
+                android:textColor="@color/Red"
+                android:id="@+id/requiredstar"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="@dimen/margin_top_edittext_billing_shipping"
+            android:background="@drawable/rounded_shape_border_billing_shipping">
+            <Spinner
+                android:id="@+id/spinerDropDown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/font_color_black_light"
+                android:textSize="@dimen/font_size_level_two"
+                android:spinnerMode="dropdown"
+                android:textAlignment="viewStart"
+                android:prompt="@string/app_name"
+                android:paddingEnd="0dp"
+                android:paddingStart="0dp">
+            </Spinner>
+
+    </LinearLayout>
+        </LinearLayout>
+
+
+</LinearLayout>

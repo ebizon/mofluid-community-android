@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+    <dimen name="height_my_cart">200dp</dimen>
+    <dimen name="width_slide">550dp</dimen>
+    <integer name="column_number">4</integer>
+    <string name="manu_rateapp">Rate this app</string>
+</resources>

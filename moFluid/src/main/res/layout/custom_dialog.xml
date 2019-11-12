@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_pdp_dialog">
+
+    <TextView
+        android:id="@+id/textDialog"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/error_quantity_guest"
+        android:textSize="14dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/declineButton"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_cart"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/Black"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/textDialog"/>
+</RelativeLayout>

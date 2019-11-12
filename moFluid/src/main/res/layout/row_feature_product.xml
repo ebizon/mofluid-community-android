@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_item_container"
+    android:layout_width="@dimen/width_product_homefragment"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:layout_marginEnd="0dp"/>
+
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_image"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/product_info_margin"
+        android:paddingEnd="@dimen/product_info_margin"
+        android:paddingStart="@dimen/product_info_margin"
+        android:layout_marginTop="@dimen/product_info_margin"
+        android:gravity="center_horizontal"
+        android:maxLines="2"
+        android:text="Product Name for testing by piyush"
+        android:textDirection="anyRtl"
+        android:textColor="#1c1c1c"
+        android:textStyle="bold"
+        android:textSize="@dimen/product_name_font_size"/>
+
+    <LinearLayout
+        android:id="@+id/rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/txtSpecialPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="$98609"
+            android:textDirection="anyRtl"
+            android:gravity="start"
+            android:textColor="#f7543e"
+            android:textSize="@dimen/product_price_font_size" />
+
+        <!--98609-->
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="@dimen/product_info_margin"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/txtSpecialPrice"
+            android:maxLines="1"
+            android:textDirection="anyRtl"
+            android:gravity="end"
+            android:text="$98609"
+            android:textColor="#1c1c1c"
+            android:textSize="@dimen/product_price_font_size" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

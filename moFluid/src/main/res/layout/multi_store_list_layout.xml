@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:id="@+id/ll_row_multistore_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:src="@drawable/storeicon"
+        android:layout_weight="44"
+        android:padding="5dp"/>
+
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/txtV_multistore_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Option"
+        android:paddingEnd="2dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingStart="5dp"
+        android:textSize="15sp"
+        android:textColor="@color/bg_black"
+        android:layout_weight="12"/>
+
+    <ImageView
+        android:id="@+id/imgV_selected_store"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/checked_store"
+        android:layout_weight="44"
+        android:visibility="invisible"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

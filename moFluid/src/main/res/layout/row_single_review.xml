@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="10dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/review_user_icon"
+        android:layout_weight="81"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="19"
+        android:paddingBottom="10dip"
+        android:paddingStart="10dp">
+
+    <TextView
+        android:id="@+id/txtv_review_row_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textAlignment="viewStart"
+        android:inputType="textCapSentences"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/font_review_title"
+        android:textSize="@dimen/font_pdp_review_description"/>
+
+        <RatingBar
+            android:id="@+id/ratingbar_average"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:rating="5"
+            android:numStars="5"
+            android:clickable="false"
+            android:isIndicator="true"
+            android:layout_marginTop="5dp"
+            style="@style/Base.Widget.AppCompat.RatingBar.Small" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtv_review_row_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is review Description of hello world this sThis is review Description of hello world this sThis is review Description of hello world this sThis is review Description of hello world this s"
+        android:maxLines="3"
+        android:padding="3dp"
+        android:paddingStart="6dp"
+        android:textAlignment="viewStart"
+        android:layout_marginEnd="5dp"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="3dp"
+        android:textColor="@color/font_review_title"
+        android:textSize="@dimen/font_pdp_review_item"
+        android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/txtv_read_more_review_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read More"
+                android:clickable="true"
+                android:textColor="@color/DarkBlue"
+                android:layout_gravity="bottom|start"
+                android:textSize="@dimen/font_size_level_three"
+                android:visibility="gone"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/bg_home_grey_color"-->
+        <!--android:layout_marginBottom="1dp"/>-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginTop="8dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txtv_review_rate_option1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/review_quality"-->
+            <!--android:textColor="@color/font_pdp_product_name"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:textSize="@dimen/font_pdp_review_item"/>-->
+
+        <!--<RatingBar-->
+            <!--android:id="@+id/ratingbar_option1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:rating="5"-->
+            <!--android:numStars="5"-->
+            <!--android:clickable="false"-->
+            <!--android:isIndicator="true"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--style="@style/Base.Widget.AppCompat.RatingBar.Small" />-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/txtv_review_rate_option2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/review_value"-->
+            <!--android:textColor="@color/font_pdp_product_name"-->
+            <!--android:layout_marginLeft="30dp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:textSize="@dimen/font_pdp_review_item"/>-->
+
+        <!--<RatingBar-->
+            <!--android:id="@+id/ratingbar_option2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:rating="5"-->
+            <!--android:numStars="5"-->
+            <!--android:clickable="false"-->
+            <!--android:isIndicator="true"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--style="@style/Base.Widget.AppCompat.RatingBar.Small" />-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginTop="10dp">-->
+        <!---->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginTop="14dp">-->
+        <!--<TextView-->
+            <!--android:id="@+id/txtv_review_rate_option3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/review_price"-->
+            <!--android:textColor="@color/font_pdp_product_name"-->
+            <!--android:layout_marginRight="24dp"-->
+            <!--android:textSize="@dimen/font_pdp_review_item"/>-->
+
+        <!--<RatingBar-->
+            <!--android:id="@+id/ratingbar_option3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:rating="5"-->
+            <!--android:numStars="5"-->
+            <!--android:clickable="false"-->
+            <!--android:isIndicator="true"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--style="@style/Base.Widget.AppCompat.RatingBar.Small"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/bg_home_grey_color"-->
+        <!--android:layout_marginBottom="3dp"-->
+        <!--android:layout_marginTop="4dp"/>-->
+
+    <TextView
+        android:id="@+id/txtv_review_row_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:maxLines="1"
+        android:textAlignment="viewStart"
+        android:ellipsize="end"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/font_review_title"
+        android:text="By Sumit  | 12/24/2016"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

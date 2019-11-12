@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_pdp_extra_options"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/ll_pdp_downloadable_attribute"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:visibility="gone">
+        <TextView
+            android:paddingStart="@dimen/padding_pdp_quantity"
+            android:id="@+id/pdp_downloadable_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingBottom="6dp"
+            android:textAllCaps="true"
+            android:paddingEnd="6dp"
+            android:paddingTop="6dp"
+            android:textColor="@color/font_pdp_product_name"
+            android:text="@string/downloadable_text"
+            android:textSize="@dimen/font_size_product_description" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bg_home_grey_color"/>
+
+        <!--<CheckBox-->
+        <!--android:layout_marginLeft="25dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/pdp_downloadable_checkbox_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_pdp_configurable_attribute"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <LinearLayout
+                android:id="@+id/ll_configurable_heading_scrollable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/grey_bottom_line"
+            android:paddingTop="1dp"
+            android:paddingBottom="1dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/custom_llayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical"
+            android:textColor="@color/font_black_color"
+            android:textSize="@dimen/font_size_level_one">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textSize="@dimen/font_size_level_one"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:text="@string/product_options_header"
+                android:textColor="@color/font_pdp_product_name" />
+
+
+            <LinearLayout
+                android:id="@+id/ll_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/custome_rectangle_border"
+                android:orientation="vertical"
+                android:padding="1dp">
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="5dp">
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!--Layout 2 for custom product-->
+
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/ll_pdp_configurable_attribute"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--android:visibility="visible">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="35dp"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:weightSum="100">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/txtv_pdp_configurable_size"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="SIZES"-->
+    <!--android:clickable="true"-->
+    <!--android:textColor="@color/font_pdp_product_name"-->
+    <!--android:textSize="@dimen/font_size_level_one"-->
+    <!--android:layout_weight="50"-->
+    <!--android:gravity="center"/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="1dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@color/LightGrey"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/txtv_pdp_configurable_color"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="COLOR"-->
+    <!--android:clickable="true"-->
+    <!--android:textColor="@color/font_pdp_product_name"-->
+    <!--android:textSize="@dimen/font_size_level_one"-->
+    <!--android:layout_weight="50"-->
+    <!--android:gravity="center"-->
+    <!--/>-->
+    <!--</LinearLayout>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:background="@drawable/grey_bottom_line"-->
+    <!--android:paddingTop="1dp"/>-->
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/pdp_configurable_attribute"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@color/bg_white"-->
+    <!--android:orientation="vertical"-->
+    <!--android:paddingLeft="20dp"-->
+    <!--android:paddingRight="20dp"-->
+    <!--android:paddingTop="20dp"></LinearLayout>-->
+
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>
+
+

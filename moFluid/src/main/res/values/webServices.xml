@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="store_details" translatable="false">storedetails&amp;theme=modern</string>
+    <string name="featured_products" translatable="false">getFeaturedProducts</string>
+    <string name="related_products" translatable="false">related_products</string>
+    <string name="new_products" translatable="false">getNewProducts</string>
+    <string name="product_details" translatable="false">productdetaildescription</string>
+    <string name="product_reviews" translatable="false">getProductReview</string>
+    <string name="write_reviews" translatable="false">addProductReview</string>
+    <string name="configurable_product_details" translatable="false">get_configurable_product_details_description</string>
+    <string name="grouped_product_details" translatable="false">productdetail</string>
+    <string name="product_details_images" translatable="false">productdetailimage</string>
+    <string name="products" translatable="false">products</string>
+    <string name="category_navigator" translatable="false">initial</string>
+    <string name="multi_store" translatable="false">storeinfo</string>
+    <string name="login_access" translatable="false">verifylogin</string>
+    <string name="push_register" translatable="false">register_push</string>
+    <string name="forgot_password" translatable="false">forgotPassword</string>
+    <string name="change_password_service" translatable="false">changeprofilepassword</string>
+    <string name="create_user" translatable="false">createuser</string>
+    <string name="check_out_service" translatable="false">preparequote</string>
+    <string name="search_data" translatable="false">search</string>
+    <string name="search_filter_data" translatable="false">searchfilter</string>
+    <string name="place_order" translatable="false">placeorder</string>
+    <string name="user_profile" translatable="false">myprofile</string>
+    <string name="update_profile" translatable="false">mofluidUpdateProfile</string>
+    <string name="country_list" translatable="false">mofluidappcountry</string>
+    <string name="cms_page" translatable="false">getallCMSPages</string>
+    <string name="myorders" translatable="false">myorders</string>
+    <string name="state_list" translatable="false">mofluidappstates</string>
+    <string name="social_login" translatable="false">loginwithsocial</string>
+    <string name="get_wishlist" translatable="false">getWishlist</string>
+    <string name="add_wishlist" translatable="false">addToWishlist</string>
+    <string name="remove_wishlist" translatable="false">removeWishlist</string>
+    <string translatable="false" name="get_filter_products">getcategoryfilter</string>
+    <string translatable="false" name="bestsellers">getBestsellerProducts</string>
+    <string translatable="false" name="add_to_cart_server">addCartItem</string>
+    <string translatable="false" name="delete_from_cart_server">removeCartItem</string>
+    <string translatable="false" name="get_anonymous_cart_qiuantity">getProductStock1</string>
+    <string translatable="false" name="get_from_cart">getCartItem</string>
+    <string translatable="false" name="get_payment_method">getpaymentmethod</string>
+    <string translatable="false" name="stripecustomercreate">stripecustomercreate</string>
+    <string translatable="false" name="chargeStripe">chargeStripe</string>
+    <string translatable="false" name="retrieveCustomerStripe">retrieveCustomerStripe</string>
+    <string translatable="false" name="createCardStripe">createCardStripe</string>
+    <string translatable="false" name="gettoken">gettoken</string>
+
+
+</resources>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="Discount">خصم</string>
+    <string name="Select">(%1$s) اختار</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تم"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"تشغيل"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"القائمة+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"طلب البحث"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"بحث"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="about_us">معلومات عنا</string>
+    <string name="account">حساب</string>
+    <string name="account_s">حساب</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="add_item_to_it_now">اضف إلى ذلك الآن؟</string>
+    <string name="add_to_cart">أضف إلى السلة</string>
+    <string name="additional_information">معلومة اضافية</string>
+    <string name="all">جميع</string>
+    <string name="all_products">جميع المنتجات</string>
+    <string name="allready_have_an_account">هل لديك حساب؟</string>
+    <string name="apply_">تطبيق</string>
+    <string name="apply_coupon">تطبيق القسيمة</string>
+    <string name="back_">الى الخلف</string>
+    <string name="back_to_exit">الرجاء الضغط العودة مرة أخرى للخروج</string>
+    <string name="best_seller_heading">أكثر الكتب مبيعا</string>
+    <string name="billing_address">عنوان وصول الفواتير</string>
+    <string name="billing_and_shipping_header">متوسط تصنيف...</string>
+    <string name="billing_header">عنوان وصول الفواتير</string>
+    <string name="billing_shipping_same">الفواتير &amp; عنوان الشحن</string>
+    <string name="blank_entry">يرجى ملء النص أعلاه</string>
+    <string name="botth_pass_must_be_same">كلمة المرور الجديدة وتأكيد كلمة المرور غير نفس</string>
+    <string name="buy_now">اشتري الآن</string>
+    <string name="card_length_error_message">إدخال عدد 16 أرقام.</string>
+    <string name="card_number">إدخال المكون من 16 رقم بطاقة</string>
+    <string name="card_number_hint">عدد 16 رقما</string>
+    <string name="cart">السلة</string>
+    <string name="cart_header">سلتي</string>
+    <string name="cart_s">العربة</string>
+    <string name="cash_on_delivery">الدفع عند التسليم</string>
+    <string name="change_passsword">تغيير كلمة السر</string>
+    <string name="change_password">تغيير كلمة السر</string>
+    <string name="change_password_header">تغيير كلمة السر</string>
+    <string name="check_out">باشرالخروج من الفندق</string>
+    <string name="check_out_as_guest_or_register_or_login">تسجيل الدخول أو التسجيل</string>
+    <string name="check_out_continue">استمر</string>
+    <string name="choose_store">اختيار مخزن</string>
+    <string name="color_vary">ولون المنتج قد تختلف من ما هو مبين في الصورة.</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">تفضل بزيارة &lt;b>facebook.com/device&lt;/b> وإدخال الرمز الموضح أعلاه.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">حدث خطأ غير متوقع أثناء تنزيل صورة.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">يتطلب تسجيل دخول WebView الحصول إلى إذن INTERNET</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">خطأ AndroidManifest</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">أعجبك</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">أعجبني</string>
+    <string gender="unknown" name="com_facebook_loading">جارٍ التحميل…</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">إلغاء</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">تسجيل الدخول</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">متابعة بحساب فيسبوك</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">تسجيل الدخول بحساب فيسبوك</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">تسجيل الخروج</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">تسجيل الخروج</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">تم تسجيل الدخول باسم: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">تم تسجيل الدخول باستخدام حساب فيسبوك</string>
+    <string gender="unknown" name="com_facebook_send_button_text">إرسال</string>
+    <string gender="unknown" name="com_facebook_share_button_text">مشاركة</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">لربط حسابك، افتح تطبيق فيسبوك على جهازك المحمول وراجع الإشعارات.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- أو -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">لست أنت؟</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">متابعة باسم %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">تأكيد تسجيل الدخول</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">أنت المتحكم في الأمر - يمكنك اختيار المعلومات التي تود مشاركتها مع التطبيقات.</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"تمكين"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏لن يعمل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تمكين خدمات Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏تمكين خدمات Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"تثبيت"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي لا تتوفر على جهازك."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"‏مدى توفّر خدمات Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"‏خطأ في خدمات Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏لدى <ns1:g id="APP_NAME">%1$s</ns1:g> مشكلة في خدمات Google Play. يُرجى إعادة المحاولة."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play التي لا يوفرها جهازك."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تحديث خدمات Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي يتم تحديثها حاليًا."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"تسجل الدخول"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"‏تسجيل الدخول عبر Google"</string>
+    <string name="configurable_message">الرجاء اختر من الخيارات المذكورة أعلاه</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="contact_info">معلومات الاتصال</string>
+    <string name="continue_btn">استمر</string>
+    <string name="continue_shoping">مواصلة التسوق</string>
+    <string name="correct_email">أدخل معرف بريد إلكتروني صحيح</string>
+    <string name="create_an_account">مستخدم جديد ؟ سجل الان</string>
+    <string name="credit_card_icon">أيقونة بطاقة الائتمان</string>
+    <string name="customer_reviews">تعليقات المنتج</string>
+    <string name="cvv_hint">عدد 3 أرقام</string>
+    <string name="cvv_length_error_message">إدخال رقم 3 أرقام.</string>
+    <string name="cvv_number">رمز الحماية</string>
+    <string name="default_value_edit">القيمة الافتراضية</string>
+    <string name="deleted_from_wishlist">البند بنجاح حذف من سلة.</string>
+    <string name="description_header">وصف</string>
+    <string name="description_value">وصف قيمة</string>
+    <string name="desktop_icon">أيقونة سطح المكتب</string>
+    <string name="dialog_message_check_unsettled_transactions">يرجى التحقق من المعاملات غير المستقرة الخاص بك.</string>
+    <string name="dialog_message_invalid_field">واحد أو أكثر من المجالات التي قمت بإدخالها غير صحيحة. يرجى التحقق من المداخل الخاصة بك وحاول مرة أخرى.</string>
+    <string name="dialog_message_login_error">اسم المستخدم أو كلمة المرور التي قمت بإدخالها غير صحيحة. يرجى التحقق من المداخل الخاصة بك وحاول مرة أخرى.</string>
+    <string name="dialog_message_session_expired">انتهت صلاحية جلسة العمل الخاصة بك. يرجى تسجيل الدخول مرة أخرى.</string>
+    <string name="dialog_message_unknown_error">حدث خطأ غير معروف.</string>
+    <string name="dialog_session_expired_no_choice">قريب</string>
+    <string name="dialog_session_expired_yes_choice">تسجيل الدخول</string>
+    <string name="dialog_title_error">خطأ</string>
+    <string name="dialog_title_login_error">خطأ في تسجيل الدخول</string>
+    <string name="dialog_title_session_expired">انتهت الجلسة</string>
+    <string name="dialog_title_transaction_not_refunded">رد غير ناجحة</string>
+    <string name="dialog_title_transaction_not_voided">الفراغ غير ناجحة</string>
+    <string name="dialog_title_transaction_unsuccessful">عملية فاشلة</string>
+    <string name="dialog_title_unknown_error">خطأ غير معروف</string>
+    <string name="discount_code">رموز الخصم</string>
+    <string name="dispaly_shiping_address">عنوان الشحن</string>
+    <string name="dispaly_shiping_contactNumber">الشحن الاتصال رقم</string>
+    <string name="dispaly_shiping_country">بلد الشحن</string>
+    <string name="dispaly_shiping_firstName">الشحن الاسم الأول</string>
+    <string name="dispaly_shiping_lastname">الشحن الاسم الأخير</string>
+    <string name="dispaly_shiping_state">الشحن المدينة</string>
+    <string name="dispaly_shiping_zipcode">الشحن الرمز البريدي</string>
+    <string name="display_address">عنوان</string>
+    <string name="display_billing_and_shiping">الفواتير والشحن عنوان</string>
+    <string name="display_city">مدينة</string>
+    <string name="display_contact_no">رقم الاتصال</string>
+    <string name="display_country">بلد</string>
+    <string name="display_email_address">عنوان البريد الإلكتروني</string>
+    <string name="display_first_name">الاسم الاول</string>
+    <string name="display_grand_total">المبلغ الإجمالي</string>
+    <string name="display_items_in_order">العناصر الموجودة في طلبك</string>
+    <string name="display_last_name">الكنية</string>
+    <string name="display_order_date">تاريخ الطلب</string>
+    <string name="display_orderid">رقم التعريف الخاص بالطلب</string>
+    <string name="display_payment_method">طريقة الدفع او السداد</string>
+    <string name="display_shipping_and_handling">الشحن والمناولة</string>
+    <string name="display_shipping_different">الشحن إلى مختلف العناوين</string>
+    <string name="display_shipping_method">طريقة الشحن</string>
+    <string name="display_state">حالة</string>
+    <string name="display_status">الحالة</string>
+    <string name="display_submit">عرض</string>
+    <string name="display_subtotal">حاصل الجمع</string>
+    <string name="display_tax">ضريبة</string>
+    <string name="display_tax_amount">ضريبة</string>
+    <string name="display_view_all_order">عرض جميع الطلبات</string>
+    <string name="display_zipcode">الرمز البريدي</string>
+    <string name="downloadable_billing_header">ملخص الطلب</string>
+    <string name="downloadable_text">اختيار العناصر للتحميل:</string>
+    <string name="edit_">تحرير</string>
+    <string name="edit_address">تحرير عنوان</string>
+    <string name="edit_address_header">تعديل الملف الشخصي</string>
+    <string name="edit_edit">تحرير</string>
+    <string name="enter">أدخل</string>
+    <string name="enter_coupon">أدخل القسيمة</string>
+    <string name="enter_state">حالة</string>
+    <string name="enter_your_coupon_code">أدخل رمز القسيمة إذا كان لديك واحدة</string>
+    <string name="error_message">هذه الخانة مطلوبه.</string>
+    <string name="error_message_service">الخادم لا يستجيب! الرجاء معاودة المحاولة في وقت لاحق !</string>
+    <string name="error_message_wrong">حدث خطأ يرجى المحاولة مرة أخرى</string>
+    <string name="exp_date">تاريخ إنتهاء الصلاحية</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"متنوعة"</string>
+    <string name="feature_product_text">المنتجات المميزة</string>
+    <string name="filter_by">مصنف بواسطة :</string>
+    <string name="filter_not_avaiblable">تصفية غير متوفرة</string>
+    <string name="first_to_review">كن أول من يراجع هذا المنتج</string>
+    <string name="forget_password">هل نسيت كلمة المرور ؟</string>
+    <string name="forgot_password_header">هل نسيت كلمة المرور</string>
+    <string name="google_plus_failed">فشل في + Google لتسجيل الدخول</string>
+    <string name="grand_total">المبلغ الإجمالي</string>
+    <string name="grouped">مجمعة</string>
+    <string name="hello_world">مرحبا بالعالم!</string>
+    <string name="hint_email">عنوان البريد الإلكتروني</string>
+    <string name="hint_fname">الاسم الاول</string>
+    <string name="hint_last">الكنية</string>
+    <string name="hint_password">كلمه السر</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="home_s">الصفحة الرئيسية</string>
+    <string name="in_stock">في المخزن</string>
+    <string name="internet_connection">اتصال الانترنت</string>
+    <string name="internet_not_avalable">ليس لديك اتصال بالإنترنت</string>
+    <string name="invalidCoupon">(%1$s)غير صالح</string>
+    <string name="invalid_card_error_message">رقم البطاقة غير صالحة.</string>
+    <string name="invalid_expDate_message">بطاقة منتهية الصلاحية.</string>
+    <string name="issue_loading">حدث بعض الأخطاء. من فضلك خروج والمحاولة لاحقا!</string>
+    <string name="item_added">وأضاف المنتج الخاص بك إلى السلة</string>
+    <string name="item_already_added">البند أضفت</string>
+    <string name="item_already_added_to_cart">يضاف البند بالفعل</string>
+    <string name="item_text">بند</string>
+    <string name="least_quantity">الحد الأدنى للكمية المحددة</string>
+    <string name="least_quantity_selected">الحد الأدنى من الكمية المحددة، انقر فوق حذف لإزالة البند.</string>
+    <string name="location_icon">الموقع أيقونة</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="login_header">تسجيل الدخول</string>
+    <string name="login_to_add_wishlist">يرجى تسجيل الدخول لإضافة عنصر إلى قائمة الامنيات</string>
+    <string name="login_to_review">يرجى تسجيل الدخول لاستعراض المنتجات</string>
+    <string name="login_to_wishlist">الرجاء تسجيل الدخول للسلة</string>
+    <string name="login_with_facebook">تسجيل الدخول باستخدام الفيسبوك</string>
+    <string name="login_with_googleplus">تسجيل الدخول مع جوجل +</string>
+    <string name="logout">خروج</string>
+    <string name="make_transaction">اكد و ادفع</string>
+    <string name="manu_rateapp">قيم هذا التطبيق</string>
+    <string name="manual_payment_header">معلومات الدفع</string>
+    <string name="manual_payment_subtitle">أدخل معلومات يدويا</string>
+    <string name="max_quantity">الحد الأقصى للكمية المحددة</string>
+    <string name="menu_refresh">اعادة تنشيط</string>
+    <string name="menu_wishlist">الأماني</string>
+    <string name="mobile_icon">أيقونة جهاز المحمول</string>
+    <string name="my_cart_message">عربة التسوق فارغة !</string>
+    <string name="my_downloads">بالتنزيل</string>
+    <string name="my_downloads_header">بلدي التنزيلات</string>
+    <string name="my_order">طلباتي</string>
+    <string name="my_order_header">طلباتي</string>
+    <string name="mydownloads_orderremain">أجل البقاء</string>
+    <string name="new_password">كلمة السر الجديدة</string>
+    <string name="new_product_text">منتجات جديدة</string>
+    <string name="new_user_signup">مستخدم جديد ؟ سجل</string>
+    <string name="no_contact_entered">إضافة أي تفاصيل الاتصال.</string>
+    <string name="no_default_address_found">لا العنوان الافتراضي وجد</string>
+    <string name="no_description_added">لا الوصف بإضافة</string>
+    <string name="no_downloads_product">لا تحميل المنتجات</string>
+    <string name="no_order_place">لا بطلبيات</string>
+    <string name="no_spec_provided">لم يتم تقديم أية مواصفات</string>
+    <string name="no_transactions">لا المعاملات لعرض</string>
+    <string name="no_wishlist_product">لا توجد منتجات في سلة</string>
+    <string name="off">إيقاف</string>
+    <string name="ok">حسنا</string>
+    <string name="old_password">كلمة المرور القديمة</string>
+    <string name="one_downloadable_allowed">يرجى إكمال هذا النظام قبل أن يأمر غيرها من البنود.</string>
+    <string name="or">أو</string>
+    <string name="order_review_header">مراجعة الطلب</string>
+    <string name="order_status">حالة الطلب</string>
+    <string name="order_summary">ملخص الطلب</string>
+    <string name="order_summary_title">حالة الطلب</string>
+    <string name="out_of_stock">إنتهى من المخزن</string>
+    <string name="pass_length_must_be_more_than_six">يجب أن يكون الحد الأدنى كلمة المرور 6 شخصية</string>
+    <string name="password">كلمه السر</string>
+    <string name="password_Required">الرجاء إدخال كلمة السر </string>
+    <string name="password_icon">كلمة أيقونة</string>
+    <string name="password_length">يجب أن تكون كلمة المرور 6 أحرف على الأقل</string>
+    <string name="payment_cancel">الرجاء اختيار طريقة الدفع وإعادة المحاولة</string>
+    <string name="payment_fails">    تم إلغاء دفعتك، يرجى إعادة المحاولة</string>
+    <string name="payment_information">معلومات الدفع</string>
+    <string name="payment_return">الدفع ألغيت. الرجاء إختيار أحد الخيارات وحاول مرة أخرى!</string>
+    <string name="payment_type_header">طريقة الدفع او السداد</string>
+    <string name="pdp_review_review_detail">اسمحوا الولايات المتحدة تعرف أفكارك:</string>
+    <string name="pdp_specifications">مواصفات المنتج</string>
+    <string name="please_enter_coupon">الرجاء إدخال الرمز</string>
+    <string name="please_fill_the_form">يرجى ملء النموذج لاستكمال طلبك</string>
+    <string name="please_provide_your_registered_email">يرجى توفير الإلكتروني المسجل لاستعادة كلمة السر الخاصة بك</string>
+    <string name="please_select">اختر من فضلك</string>
+    <string name="price">السعر</string>
+    <string name="price_discount">بيع حسب السعر %1$s</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="proceed">تقدم</string>
+    <string name="product_detail_header">تفاصيل المنتج</string>
+    <string name="product_name">اسم المنتج</string>
+    <string name="product_name_mycart">اسم المنتج في سلة التسوق</string>
+    <string name="product_options_header">خيارات المنتج</string>
+    <string name="products_text">المنتجات</string>
+    <string name="progress_dialog_message_processing_transaction">معالجة المعاملات. . .</string>
+    <string name="progress_dialog_title_please_wait">أرجو الإنتظار . . .</string>
+    <string name="quantity_">كمية</string>
+    <string name="radio_btn_as_guest">الخروج كضيف</string>
+    <string name="radio_btn_create_account">انشئ حساب</string>
+    <string name="radio_btn_signin">تسجيل الدخول</string>
+    <string name="read_less">إقرأ أقل</string>
+    <string name="read_more">اقرأ أكثر</string>
+    <string name="receipt_card_number_text">رقم البطاقة</string>
+    <string name="receipt_card_type_text">نوع البطاقة</string>
+    <string name="receipt_date_text">تاريخ</string>
+    <string name="receipt_transaction_id_text">رقم المعاملات</string>
+    <string name="receipt_transaction_total">مجموع</string>
+    <string name="recycler_view_amount_text">كمية</string>
+    <string name="recycler_view_line">إعادة تدوير رأي خط</string>
+    <string name="recycler_view_transactionID_text">معرف عملية:</string>
+    <string name="refund_button_text">إعادة مال</string>
+    <string name="refunded_text">ردها</string>
+    <string name="related_product_text">منتجات ذات صله</string>
+    <string name="required">مطلوب</string>
+    <string name="reset_">إعادة تعيين</string>
+    <string name="retrive_your_password">استرجاع كلمة المرور</string>
+    <string name="return_privacy_policy">عودة سياسة الخصوصية</string>
+    <string name="review_nickname">اسم الشهرة الخاص بك :</string>
+    <string name="review_order_header">مراجعة الطلب</string>
+    <string name="review_price">السعر</string>
+    <string name="review_quality">جودة</string>
+    <string name="review_summary">خلاصة المراجعة :</string>
+    <string name="review_value">القيمة</string>
+    <string name="search">بحث</string>
+    <string name="search_hint">البحث عن المنتجات</string>
+    <string msgid="146198913615257606" name="search_menu_title">"البحث"</string>
+    <string name="search_s">بحث</string>
+    <string name="select_">اختار</string>
+    <string name="select_payment">حدد الدفع</string>
+    <string name="select_select">اختار</string>
+    <string name="select_shiping">إختر طريقة الشحن</string>
+    <string name="select_small">اختار</string>
+    <string name="selling_price">سعر البيع</string>
+    <string name="ship_handle">الشحن والمناولة</string>
+    <string name="shiping_address">عنوان الشحن</string>
+    <string name="shipping_same_address_header">طريقة الشحن</string>
+    <string name="shipping_type">نوع الشحن</string>
+    <string name="shop_now">تسوق الآن</string>
+    <string name="show_password">عرض كلمة المرور</string>
+    <string name="sign_up_header">سجل</string>
+    <string name="sign_up_now">أفتح حساب الأن</string>
+    <string name="signin">تسجيل الدخول</string>
+    <string name="slogan">استعرض المدفوعات. في أى مكان</string>
+    <string name="snackbar_action_refresh">اعادة تنشيط</string>
+    <string name="snackbar_action_retry">إعادة المحاولة</string>
+    <string name="snackbar_text_failed_load_transactions">غير قادر على تحميل المعاملات</string>
+    <string name="snackbar_text_no_network_connection">لا يوجد اتصال بالشبكة</string>
+    <string name="snackbar_text_successful_refund">عملية ردها بنجاح</string>
+    <string name="snackbar_text_successful_transaction">وكانت صفقة ناجحة</string>
+    <string name="snackbar_text_successful_void">عملية باطلة بنجاح</string>
+    <string name="snackbar_text_unsuccessful_refund">غير قادر على استرداد المعاملة</string>
+    <string name="snackbar_text_unsuccessful_void">غير قادر على إبطال الصفقة</string>
+    <string name="sort_">فرز</string>
+    <string name="special_price">سعر خاص</string>
+    <string name="state">حالة</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="still_loading_detail">البند يزال تحميل</string>
+    <string name="store_icon">متجر أيقونة</string>
+    <string name="store_view_empty">أي مخزن المشاهدات المتاحة</string>
+    <string name="submit">عرض</string>
+    <string name="term_condition">شروط وأحكام</string>
+    <string name="thank_you_for_placing_order">شكرا لوضع النظام الخاص بك مع بنا. وسوف نبذل قصارى جهدنا لتسليمها إلى العنوان الموضح أدناه.</string>
+    <string name="total">مجموع</string>
+    <string name="total_reviews"> %1$s آراء العملاء</string>
+    <string name="txt_a_z">اسم (أ - ي)</string>
+    <string name="txt_amount_payble">المبلغ المستحق</string>
+    <string name="txt_city">مدينة</string>
+    <string name="txt_contact_number">رقم الاتصال</string>
+    <string name="txt_country">بلد</string>
+    <string name="txt_current_password">كلمة السر الحالية</string>
+    <string name="txt_direction">اتجاه</string>
+    <string name="txt_download">تحميل</string>
+    <string name="txt_email_id">عنوان الايميل</string>
+    <string name="txt_label">ملصق</string>
+    <string name="txt_name">اسم</string>
+    <string name="txt_no_product_found">لا المنتج موجود</string>
+    <string name="txt_order_id">رقم التعريف الخاص بالطلب</string>
+    <string name="txt_posion">موضع</string>
+    <string name="txt_price_">السعر</string>
+    <string name="txt_price_high_low">السعر (عالية منخفض)</string>
+    <string name="txt_price_l_h">السعر (منخفض عالي)</string>
+    <string name="txt_reorder">إعادة ترتيب</string>
+    <string name="txt_see_more">شاهد المزيد</string>
+    <string name="txt_sort_by">ترتيب حسب</string>
+    <string name="txt_sort_products">نوع المنتجات</string>
+    <string name="txt_value">القيمة</string>
+    <string name="txt_view_order">مشاهدة الطلب</string>
+    <string name="txt_z_a">اسم (ي - أ)</string>
+    <string name="update_">تحديث</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="validCoupon">(%1$s) طبقت بنجاح.</string>
+    <string name="valid_card_message">رقم بطاقة صالح.</string>
+    <string name="validate_write_review_message">يرجى ملء فوق خيارات إلزامية</string>
+    <string name="view_">رأي</string>
+    <string name="viewreviews">قراءة جميع التقييمات</string>
+    <string name="void_button_text">لاغ</string>
+    <string name="voided_text">باطلة</string>
+    <string name="welcome_header">ملفي الشخصي</string>
+    <string name="wishlist_header">قائمة امنياتي</string>
+    <string name="write_review">أكتب مراجعة</string>
+    <string name="write_review_message">كيف تقيم هذا المنتج ؟</string>
+    <string name="write_review_message_failure">يرجى المحاولة بعد وقت!</string>
+    <string name="writereview">أكتب مراجعة</string>
+    <string name="you_are_exceeded_number_products">لقد تجاوزت عدد من المنتجات</string>
+    <string name="zipcode">الرمز البريدي</string>
+    <string name="zipcode_hint">عدد 5 أرقام</string>
+    <string name="zipcode_length_error_message">إدخال رقم 6 أرقام.</string>
+</resources>

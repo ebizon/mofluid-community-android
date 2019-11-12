@@ -1,0 +1,146 @@
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:focusableInTouchMode="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_banner"
+                android:layout_weight="1"
+                android:background="@color/background_white">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/default_mofluid_land" />
+
+                <com.viewpagerindicator.CirclePageIndicator
+                    android:id="@+id/indicator"
+                    style="@style/homeBannerSlideshow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:padding="4dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/fl_feature_product_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_new_feature"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNewFeature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_header_text_product_bottom"
+                    android:layout_marginTop="@dimen/margin_header_text_product"
+                    android:paddingEnd="8dp"
+                    android:paddingStart="8dp"
+                    android:text="@string/feature_product_text"
+                    android:textColor="@color/headings_text_color"
+                    android:textDirection="anyRtl"
+                    android:textSize="@dimen/featured_new_product_font_size"
+                    android:textStyle="bold" />
+
+                <View
+                    style="@style/Divider"
+                    android:layout_marginBottom="@dimen/divider_bottom_margin" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view_feature_product"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/newproduct_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_new_product"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNewProduct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_header_text_product_bottom"
+                    android:layout_marginTop="@dimen/margin_header_text_product"
+                    android:paddingEnd="8dp"
+                    android:paddingStart="8dp"
+                    android:text="@string/new_product_text"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/headings_text_color"
+                    android:textDirection="anyRtl"
+                    android:textSize="@dimen/featured_new_product_font_size"
+                    android:textStyle="bold" />
+
+                <View
+                    style="@style/Divider"
+                    android:layout_marginBottom="@dimen/divider_bottom_margin" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view_new_product"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bestseller_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_new_product"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tvBestSeller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_header_text_product_bottom"
+                    android:layout_marginTop="@dimen/margin_header_text_product"
+                    android:paddingEnd="8dp"
+                    android:paddingStart="8dp"
+                    android:text="@string/best_seller_heading"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/headings_text_color"
+                    android:textDirection="anyRtl"
+                    android:textSize="@dimen/featured_new_product_font_size"
+                    android:textStyle="bold" />
+
+                <View
+                    style="@style/Divider"
+                    android:layout_marginBottom="@dimen/divider_bottom_margin" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view_best_seller_product"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_RUN_MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":2570011,"versionName":"1.0.12","enabled":true,"outputFile":"moFluid-debug.apk","fullName":"debug","baseName":"debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.mofluid.magento2","split":"","minSdkVersion":"21"}}]

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_header"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/header_height"
+    android:layout_alignParentTop="true"
+
+    android:background="@color/White"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_width"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:id="@+id/ll_back_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp">
+            <ImageView
+                android:id="@+id/ivBackMenu"
+                android:layout_width="@dimen/header_width"
+                android:layout_height="@dimen/header_width"
+                android:paddingStart="5dp"
+                android:scaleY="0.91"
+                android:src="@drawable/back_menu"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="60dp"
+            android:weightSum="1">
+            <RelativeLayout
+                android:id="@+id/logo"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.70"
+                android:layout_gravity="center_horizontal">
+                <ImageView
+                    android:id="@+id/ivAppLogo"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_header_log"
+                    android:src="@drawable/logo"
+                    android:visibility="gone"
+                    />
+                <TextView
+                    android:id="@+id/product_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/height_header_log"
+                    android:gravity="center"
+                    android:layout_alignStart="@+id/ivAppLogo"
+                    android:layout_alignEnd="@+id/ivAppLogo"
+                    android:text="Stripe Payment Method"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textDirection="anyRtl"
+                    android:textColor="@color/font_black_color"
+                    android:textSize="@dimen/font_size_level_one"
+                    android:visibility="visible" />
+                android:layout_alignParentRight="true"
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

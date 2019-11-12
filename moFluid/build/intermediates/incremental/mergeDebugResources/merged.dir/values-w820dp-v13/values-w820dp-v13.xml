@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="appbar_divider_height">3dp</dimen>
+    <dimen name="footer_height">52dp</dimen>
+    <dimen name="height_banner">340dp</dimen>
+    <dimen name="height_header_log">50dp</dimen>
+    <dimen name="height_my_cart">200dp</dimen>
+    <dimen name="height_new_feature">290dp</dimen>
+    <dimen name="height_new_product">290dp</dimen>
+    <dimen name="width_slide">450dp</dimen>
+    <integer name="column_number">3</integer>
+    <string name="manu_rateapp">Rate this app</string>
+</resources>

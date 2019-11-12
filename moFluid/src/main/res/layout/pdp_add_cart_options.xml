@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ll_cart_options"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+    <TextView
+        android:id="@+id/btn_pdp_buy_now"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@color/btn_buy_now"
+        android:textColor="@color/bg_white"
+        android:text="@string/buy_now" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/bg_white"></View>
+
+    <ImageView
+                android:id="@+id/btn_pdp_add_to_cart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:padding="12dp"
+                android:src="@drawable/cart_pdp"
+                android:background="@color/pdp_btn_color"
+                 />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/bg_white"></View>
+
+    <ImageView
+        android:id="@+id/imgv_add_to_wishlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="40"
+        android:padding="12dp"
+        android:src="@drawable/heart"
+        android:background="@color/pdp_btn_color" />
+</LinearLayout>
+
+

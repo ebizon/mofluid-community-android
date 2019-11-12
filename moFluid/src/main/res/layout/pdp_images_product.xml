@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_pdp_product_images"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--android:layout_height="@dimen/height_product_detail_banner_single"-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/rl_pager"
+        android:visibility="visible">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager_pdp_images"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_above="@+id/pdp_image_indicator"
+            android:visibility="gone" />
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/pdp_image_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:padding="6dip"
+            android:layout_marginTop="5dp"
+            app:centered="true"
+            style="@style/productPageSlideshow"/>
+
+        <ImageView
+            android:id="@+id/default_image_pdp_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/pdp_image_indicator"
+            android:src="@drawable/default_mofluid" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>
+
+

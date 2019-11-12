@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Mofluid 2</string>
+   <!-- <string name="base_url" translatable="false">http://mofstage1.ebizontech.biz/mofluid119</string> -->
+    <string name="base_url" translatable="false">http://test.store2.mofluid.com/mofluidapi2</string>
+    <string name="currency_code" translatable="false">USD</string>
+    <string name="store_id" translatable="false">1</string>
+    <string name="app_language" translatable="false">english</string>
+    <string name="mofluid_api_access_key" translatable="false">Bearer qc6gpma81ev91o7crkggwxrrn0msxiu2</string>
+
+</resources>
+

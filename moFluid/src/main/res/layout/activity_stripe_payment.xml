@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="8dp"
+    android:paddingStart="8dp"
+    android:paddingRight="8dp"
+    android:paddingEnd="8dp"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header_stripe"
+        layout="@layout/stripe_header"></include>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/payment_progress"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"></LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/layout_add_card"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/border_stripe_add"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+        <EditText
+            android:id="@+id/cardNumberStripe"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="@color/Black"
+            android:background="@drawable/border_stripe_add"
+            android:backgroundTint="@color/White"
+            android:hint="@string/cardNumberStripe"
+            android:inputType="numberDecimal"
+            android:maxLength="16"
+            android:nextFocusDown="@+id/expMonth"
+            android:nextFocusRight="@+id/expMonth"
+            android:nextFocusForward="@+id/expMonth"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:weightSum="100">
+
+        <EditText
+            android:id="@+id/expiryDateStripe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textAlignment="center"
+            android:layout_marginRight="50dp"
+            android:maxLength="5"
+            android:inputType="date"
+            android:hint="MM/YY"
+            android:background="@drawable/border_stripe_add"
+            android:backgroundTint="@color/White"
+            android:nextFocusDown="@+id/cvvNumberStripe"
+            android:nextFocusRight="@+id/cvvNumberStripe"
+            android:nextFocusForward="@+id/cvvNumberStripe"
+            android:layout_weight="50"/>
+
+
+        <EditText
+            android:id="@+id/cvvNumberStripe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textAlignment="center"
+            android:layout_marginLeft="50dp"
+            android:maxLength="3"
+            android:inputType="number"
+            android:hint="CVV"
+            android:background="@drawable/border_stripe_add"
+            android:nextFocusDown="@+id/btnSubmitStripe"
+            android:backgroundTint="@color/White"
+            android:nextFocusRight="@+id/btnSubmitStripe"
+            android:nextFocusForward="@+id/btnSubmitStripe"
+            android:layout_weight="50"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/totalAmountStripe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:enabled="false"
+            android:text="Total Amount"
+            android:textColor="@color/DarkGray"
+            android:backgroundTint="@color/White"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:editable="false"
+            android:background="@drawable/border_stripe_add"
+            android:nextFocusDown="@+id/btnSubmitStripe"
+            android:nextFocusRight="@+id/btnSubmitStripe"
+            android:nextFocusForward="@+id/btnSubmitStripe"
+            android:layout_below="@+id/expiryDateStripe"
+            />
+
+
+        <Button
+            android:id="@+id/btnSubmitStripe"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="SUBMIT"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/stripeBlue"
+            android:layout_below="@+id/totalAmountStripe"
+            android:background="@color/app_color"
+            />
+
+        <TextView
+            android:id="@+id/error_stripe_invalid"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Red"
+            android:text=""
+            android:visibility="gone"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

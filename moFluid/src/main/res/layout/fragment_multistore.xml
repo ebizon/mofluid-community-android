@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/ll_multistore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/multi_store_list"
+            android:layout_alignParentTop="true"
+            android:fadingEdge="none"
+            />
+
+        <TextView
+            android:id="@+id/empty_store_view"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_height="match_parent"
+            android:textDirection="anyRtl"
+            android:textStyle="bold"
+            android:text="@string/store_view_empty"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

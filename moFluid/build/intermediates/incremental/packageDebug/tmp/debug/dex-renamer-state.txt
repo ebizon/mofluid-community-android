@@ -1,0 +1,4 @@
+#Mon Aug 12 12:39:43 IST 2019
+base.0=/home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

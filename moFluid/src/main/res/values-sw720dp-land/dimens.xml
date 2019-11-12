@@ -1,0 +1,13 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
+    -->
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+    <dimen name="width_slide">550dp</dimen>
+    <dimen name="height_my_cart">200dp</dimen>
+
+    <integer name="column_number">4</integer>
+
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/debug/shaders"/></dataSet></merger>

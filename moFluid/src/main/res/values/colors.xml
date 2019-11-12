@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="app_color">#f0f0f0</color>
+    <color name="app_color_light">#55ff0000</color>
+    <color name="btn_color">#343434</color>
+    <color name="appbar_divider_color">#aeaeae</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="footer_text_color">#777777</color>
+    <color name="divider_expandable_listview_color">#f0f0f0</color>
+    <color name="selected_option">#87CEFA</color>
+
+    <!--#f78f1e-->
+    <color name="font_color">#000</color>
+    <color name="font_black_color">#000</color>
+    <color name="font_white_color">#fff</color>
+    <color name="font_color_black_light">#808080</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_verticle_line">#796E6C63</color>
+    <color name="primary_color">#c5c5c5</color>
+    <color name="bg_black">#000</color>
+    <color name="font_red_color">#f00</color>
+    <color name="font_color_white">#fff</color>
+    <color name="bg_white">#fff</color>
+    <color name="White">#fff</color>
+    <color name="theme_primary_text_inverted">#ffffff</color>
+    <color name="theme_secondary_text_inverted">#8affffff</color>
+    <color name="bg_home_grey_color">#CDCDCD</color>
+    <color name="font_green_color">#0f0</color>
+    <color name="headings_text_color">#343434</color>
+    <color name="stripeBlue">#1468A9</color>
+
+    <!--Authorize color-->
+
+    <color name="ThemeColor">#ff4f90bc</color>
+    <color name="Accent">#fffdad37</color>
+    <color name="ErrorMessageColor">#FFDD2C00</color>
+    <color name="HintColor">#808080</color>
+    <color name="Correct">@color/MediumSeaGreen</color>
+    <color name="HistoryLineColor">#ffe7e7e7</color>
+    <color name="Grey">#ffb4b4b4</color>
+
+
+    <!-- all colors -->
+   <!-- <color name="White">#FFFFFF</color>-->
+    <color name="Red">#FF0000</color>
+    <color name="LightGrey">#D3D3D3</color>
+    <color name="DarkGray">#A9A9A9</color>
+    <color name="Gray">#808080</color>
+    <color name="MediumSeaGreen">#3CB371</color>
+    <color name="DarkBlue">#00008B</color>
+    <color name="Black">#000000</color>
+    <color name="btn_buy_now">#DF7272</color>
+    <color name="font_pdp_product_name">#242424</color>
+    <color name="size_color">#636363</color>
+    <color name="font_pdp_favourite">#4b4b4b</color>
+    <color name="pdp_price_color">#ff3838</color>
+    <color name="font_review_title">#707070</color>
+    <color name="pdp_btn_color">#909090</color>
+    <color name="bg_grey_color">#e6e6e6</color>
+    <color name="yellow_color">#f39200</color>
+    <color name="grey_pressed_color">#FFD2CFCF</color>
+    <color name="bg_filter_color">#ededed</color>
+    <color name="font_color_black_light_1">#8e8d8d</color>
+    <color name="bg_filter_dark_color">#999999</color>
+    <color name="btn_pressed_color">#873333</color>
+    <color name="btn_normal_color">#DF7272</color>
+    <!--- color with name given on http://amarandroid.blogspot.in/2013/04/hexadecimal-color-codes-list-using-in.html -->
+    <color name="white_smoke">#f5f5f5</color>
+    <color name="orange_red">#ff4500</color>
+
+    <!--login and forgot password screen-->
+    <color name="login_back_ground_color">#ffffff</color>
+    <color name="subtitle_text_color">#000000</color>
+    <color name="id_password_text_color">#a5a5a5</color>
+    <color name="login_button_text_color">#ffffff</color>
+    <color name="login_button_background_color">#d55b60</color>
+    <color name="dont_have_account_text_color">#666666</color>
+    <color name="see_demo_text_color">#d55b60</color>
+    <color name="forgot_password_text_color">#a5a5a5</color>
+    <color name="agreement_text_color">#666</color>
+    <color name="privacy_policy_text_color">#d55b60</color>
+
+    <!-- Colors related to CirclePageIndicator below Banner SlideShow in HomeFragment-->
+    <color name="circle_indicator_background">#806E6A6A</color>
+    <color name="circle_indicator_page_background">#FFCBCBCB</color>
+
+    <!-- Colors related to CirclePageIndicator in SimpleProductFragment-->
+    <color name="circle_indicator_product_fill_color">#444444</color>
+
+    <!-- for divider in fragment_home.xml -->
+    <color name="divider_color">#e0e0e0</color>
+    <color name="footer_tint_color">#353333</color>
+
+
+</resources>

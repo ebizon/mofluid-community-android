@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="card_number">Enter 16-digit card number</string>
+    <string name="internet_not_avalable">You have not internet connection</string>
+    <string name="internet_connection">Internet Connection</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="login">Login</string>
+    <string name="signin">Sign In</string>
+    <string name="show_password">Show Password</string>
+    <string name="forget_password">Forgot Password ?</string>
+    <string name="create_an_account">New User ? Register Now</string>
+    <string name="retrive_your_password">Retrieve Your Password</string>
+    <string name="please_provide_your_registered_email">Please Provide registered email to retrieve your password</string>
+    <string name="sign_up_now">Sign Up Now</string>
+    <string name="allready_have_an_account">Already have an account ?</string>
+    <string name="new_user_signup">New user ? Sign Up</string>
+    <string name="hint_last">Last Name</string>
+    <string name="required">Required</string>
+    <string name="correct_email">Enter a valid email id </string>
+    <string name="password_length">Password should be atleast 6 characters</string>
+    <string name="password_Required">Please enter password </string>
+    <string name="hint_fname">First Name</string>
+    <string name="my_cart_message">Your Cart is Empty !</string>
+    <string name="continue_shoping">Continue Shopping</string>
+    <string name="home">HOME</string>
+    <string name="choose_store">Choose store</string>
+    <string name="downloadable_text">Choose items to download : </string>
+    <string name="search">SEARCH</string>
+    <string name="account">ACCOUNT</string>
+    <string name="cart">CART</string>
+
+    <string name="search_s">Search</string>
+    <string name="account_s">Account</string>
+    <string name="cart_s">Cart</string>
+    <string name="home_s">Home</string>
+    <string name="total">Total</string>
+    <string name="check_out">Proceed To Checkout</string>
+    <string name="product_name_mycart">Product name in my cart</string>
+    <string name="feature_product_text">FEATURED PRODUCTS</string>
+    <string name="related_product_text">RELATED PRODUCTS</string>
+    <string name="new_product_text">NEW PRODUCTS</string>
+    <string name="selling_price">Selling price</string>
+    <string name="price">Price</string>
+    <string name="special_price">Special Price</string>
+    <string name="pdp_specifications">PRODUCT SPECIFICATIONS</string>
+    <string name="description_header">DESCRIPTION</string>
+    <string name="description_value">Description value</string>
+    <string name="product_options_header">PRODUCT OPTIONS</string>
+    <string name="products_text">Products</string>
+    <string name="additional_information">Additional Information</string>
+    <string name="configurable_message">Please Select from above options</string>
+    <string name="still_loading_detail">Item Still Loading !</string>
+    <string name="item_already_added">Item already added</string>
+    <string name="one_downloadable_allowed">Please complete this order before ordering other items.</string>
+
+
+    <!--Toast texts-->
+    <string name="back_to_exit">Please click BACK again to exit</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="check_out_as_guest_or_register_or_login">Login or Register</string>
+    <string name="check_out_continue">Continue</string>
+    <string name="radio_btn_signin">Sign In</string>
+    <string name="radio_btn_create_account">Create An Account</string>
+    <string name="radio_btn_as_guest">Checkout As Guest</string>
+    <string name="please_fill_the_form">Please fill the form to complete your order</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="enter_state">State</string>
+    <string name="state">State</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="you_are_exceeded_number_products">You have exceeded number of products</string>
+    <string name="least_quantity_selected">Minimum quantity selected, click delete to remove item.</string>
+    <string name="add_item_to_it_now">Add item to it now?</string>
+    <string name="in_stock">In stock</string>
+    <string name="out_of_stock">Out of stock</string>
+    <string name="grouped">Grouped</string>
+
+    <string name="item_already_added_to_cart">Item is already added</string>
+    <string name="enter">Enter</string>
+    <string name="please_select">Please Select a Payment Method</string>
+    <string name="login_with_facebook">Login with facebook</string>
+    <string name="login_with_googleplus">Login with Google+</string>
+    <string name="edit_address">Edit Address</string>
+    <string name="edit_">Edit</string>
+    <string name="shiping_address">Shipping Address</string>
+    <string name="change_passsword">Change password</string>
+    <string name="logout">LOGOUT</string>
+    <string name="my_order">MY ORDERS</string>
+    <string name="update_">Update</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="pass_length_must_be_more_than_six">Password must have minimum 6 character</string>
+    <string name="blank_entry">Please  fill the above text</string>
+    <string name="botth_pass_must_be_same">New password and confirm password is not same</string>
+
+    <string name="no_default_address_found">No default address found</string>
+    <string name="billing_shipping_same">Billing  &amp; Shipping Address</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="discount_code">Discount Codes</string>
+    <string name="enter_your_coupon_code">Enter your coupon code if you have one</string>
+    <string name="apply_coupon">Apply Coupon</string>
+    <string name="proceed">Proceed</string>
+    <string name="payment_information">Payment information</string>
+    <string name="submit">Submit</string>
+    <string name="please_enter_coupon">Please Enter Code</string>
+    <string name="invalidCoupon">(%1$s) is invalid</string>
+    <string name="select_payment">Select Payment</string>
+    <string name="cash_on_delivery">Cash On Delivery</string>
+
+    <string name="thank_you_for_placing_order">Thank you for placing your order with us.We will do our best to deliver it to below address.</string>
+    <string name="Discount">Discount</string>
+    <string name="Select">Select %1$s</string>
+
+    <string name="search_hint">Search Products</string>
+    <string name="google_plus_failed">Google+ login failed</string>
+
+    <!--- <string name="app_name">Authorize.Net</string> -->
+    <string name="slogan">Accept Payments. Anywhere</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <!--Button Label-->
+    <!-- <string name="login">Login</string>-->
+
+    <!--Navigation Drawer-->
+
+    <!--TransactionFragment-->
+    <!--TextView Hints-->
+    <string name="card_number_hint">16-digit number</string>
+    <string name="cvv_hint">3-digit number</string>
+
+    <string name="zipcode_hint">5-digit number</string>
+    <!--Error Messages-->
+    <string name="error_message">This field is required.</string>
+    <string name="card_length_error_message">Enter a 16-digit number.</string>
+    <string name="invalid_card_error_message">Invalid card number.</string>
+    <string name="valid_card_message">Valid card number.</string>
+    <string name="cvv_length_error_message">Enter a 3-digit number.</string>
+
+    <string name="zipcode_length_error_message">Enter a 6-digit number.</string>
+    <string name="invalid_expDate_message">Expired Card.</string>
+    <!--Button Labels-->
+    <string name="make_transaction">Confirm and Pay</string>
+    <!--EditText Hints -->
+    <!-- <string name="card_number">Card Number</string>-->
+    <string name="cvv_number">Security Code</string>
+    <string name="exp_date">Expiration Date</string>
+    <string name="zipcode">Zipcode</string>
+
+    <!--HistoryFragment-->
+    <string name="recycler_view_transactionID_text">Transaction ID: </string>
+    <string name="recycler_view_amount_text">Amount</string>
+
+    <string name="recycler_view_line">Recycler View Line</string>
+    <string name="refund_button_text">REFUND</string>
+    <string name="void_button_text">VOID</string>
+    <string name="voided_text">Voided</string>
+    <string name="refunded_text">Refunded</string>
+
+    <!--Snackbar messages and actions-->
+    <string name="snackbar_text_successful_refund">Transaction successfully refunded</string>
+    <string name="snackbar_text_successful_void">Transaction successfully voided</string>
+    <string name="snackbar_text_unsuccessful_void">Unable to void transaction</string>
+    <string name="snackbar_text_unsuccessful_refund">Unable to refund transaction</string>
+    <string name="snackbar_text_successful_transaction">Transaction was successful</string>
+    <string name="snackbar_text_no_network_connection">No network connection</string>
+    <string name="snackbar_text_failed_load_transactions">Unable to load transactions</string>
+    <string name="snackbar_action_refresh">REFRESH</string>
+    <string name="snackbar_action_retry">RETRY</string>
+
+    <!--Dialog titles and messages-->
+    <string name="dialog_title_login_error">Login Error</string>
+    <string name="dialog_message_login_error">The username or password you have entered is incorrect. Please check your entries and try again.</string>
+    <string name="dialog_title_transaction_not_refunded">Refund Unsuccessful</string>
+    <string name="dialog_title_transaction_not_voided">Void Unsuccessful</string>
+    <string name="dialog_title_transaction_unsuccessful">Transaction Unsuccessfull</string>
+    <string name="dialog_title_error">Error</string>
+    <string name="dialog_title_unknown_error">Unknown Error</string>
+    <string name="dialog_message_check_unsettled_transactions">Please check your unsettled transactions.</string>
+    <string name="dialog_message_invalid_field">One or more of the fields you have entered is incorrect. Please check your entries and try again.</string>
+    <string name="dialog_message_unknown_error">An unknown error has occurred. </string>
+    <string name="progress_dialog_title_please_wait">Please wait . . . </string>
+    <string name="progress_dialog_message_processing_transaction">Processing Transaction . . .</string>
+    <string name="dialog_title_session_expired">Session Expired</string>
+    <string name="dialog_message_session_expired">Your session has expired. Please login again.</string>
+    <string name="dialog_session_expired_yes_choice">Login</string>
+    <string name="dialog_session_expired_no_choice">Close</string>
+
+    <!--TransactionReceiptActivity-->
+    <string name="receipt_transaction_id_text">Transaction ID </string>
+    <string name="receipt_transaction_total">TOTAL </string>
+    <string name="order_summary_title">ORDER SUMMARY</string>
+    <string name="receipt_date_text">Date</string>
+    <string name="continue_btn">Continue</string>
+    <string name="receipt_card_number_text">Card Number</string>
+    <string name="receipt_card_type_text">Card Type</string>
+    <string name="manual_payment_header">Payment Information</string>
+    <string name="manual_payment_subtitle">Enter Information Manually</string>
+    <string name="no_transactions">No Transactions to Display</string>
+
+    <!--ImageView Content Descriptions-->
+
+    <string name="password_icon">Password Icon</string>
+    <string name="mobile_icon">Mobile Device Icon</string>
+    <string name="desktop_icon">Desktop Icon</string>
+    <string name="store_icon">Store Icon</string>
+    <string name="credit_card_icon">Credit Card Icon</string>
+
+    <string name="location_icon">Location Icon</string>
+    <string name="store_view_empty">No Store Views available</string>
+    <string name="shop_now">Shop now</string>
+    <!-- <string name="action_settings">action</string>-->
+    <!--  Rate this application-->
+    <string name="manu_rateapp">Rate this app</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="product_name">Product Name</string>
+
+    <!--FOR ADDRESS HEADER TEXTS-->
+    <string name="display_first_name">First Name</string>
+    <string name="display_last_name">Last Name</string>
+    <string name="display_contact_no">Contact Number</string>
+    <string name="display_email_address">Email Address</string>
+    <string name="display_address">Address</string>
+    <string name="display_city">City</string>
+    <string name="display_country">Country</string>
+    <string name="display_state">State</string>
+    <string name="display_zipcode">Zip Code</string>
+    <string name="display_submit">Submit</string>
+    <string name="display_billing_and_shiping">Billing &amp; Shipping Address</string>
+    <string name="display_shipping_different">Shipping to different Address</string>
+    <string name="ok">OK</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="display_items_in_order">Items in your order</string>
+    <string name="default_value_edit"> Default Value</string>
+    <string name="display_grand_total">Grand Total</string>
+    <string name="display_status">Status</string>
+    <string name="display_orderid">Order ID</string>
+    <string name="item_text">Item</string>
+    <string name="display_payment_method">Payment Method</string>
+    <string name="display_order_date">Order Date</string>
+    <string name="display_subtotal">Sub Total</string>
+    <string name="display_shipping_and_handling">Shipping and Handling</string>
+    <string name="display_shipping_method">Shipping Method</string>
+    <string name="display_tax">Tax</string>
+    <string name="display_tax_amount">Tax</string>
+    <string name="display_view_all_order">View All Orders</string>
+    <string name="all_products">All Products</string>
+    <string name="payment_cancel">Please choose Payment method and retry</string>
+    <string name="payment_return">Payment cancelled.Please choose an option and try again!</string>
+    <string name="default_discount" translatable="false">Default</string>
+
+
+    <!--STRINGS FOR PAGEW HEADINGS-->
+    <string name="shipping_header" translatable="false">SHIPPING ADDRESS</string>
+    <string name="billing_header">BILLING ADDRESS</string>
+    <string name="shipping_and_billing_header" translatable="false">SHIPPING AND BILLING ADDRESS</string>
+    <string name="billing_and_shipping_header">SHIPPING AND BILLING ADDRESS</string>
+    <string name="change_password_header">CHANGE PASSWORD</string>
+    <string name="edit_address_header">EDIT PROFILE</string>
+    <string name="forgot_password_header">FORGOT PASSWORD</string>
+    <string name="cart_header">MY CART</string>
+    <string name="my_order_header">MY ORDERS</string>
+    <string name="order_review_header">ORDER REVIEW</string>
+    <string name="payment_type_header">PAYMENT METHOD</string>
+    <string name="shipping_same_address_header">SHIPPING METHOD</string>
+    <string name="downloadable_billing_header">ORDER SUMMARY</string>
+    <string name="login_header">LOGIN</string>
+    <string name="sign_up_header">SIGN UP</string>
+    <string name="review_order_header">REVIEW ORDER</string>
+    <string name="welcome_header">MY PROFILE</string>
+    <!--Myorder fragment strings-->
+    <string name="no_order_place">No orders placed</string>
+    <!--  order Acknowledgement page-->
+    <string name="txt_order_id">Order ID</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_city">City</string>
+    <string name="txt_country">Country</string>
+    <string name="txt_amount_payble">Amount Payble</string>
+    <string name="txt_contact_number">Contact Number</string>
+    <string name="txt_no_product_found">No Product Found</string>
+    <string name="txt_value">Value</string>
+    <string name="shipping_type">Shipping Type</string>
+    <string name="grand_total">Grand Total</string>
+    <string name="txt_view_order">View Order</string>
+    <string name="txt_reorder">Reorder</string>
+    <string name="txt_label">Label</string>
+    <string name="about_us">About Us</string>
+    <string name="term_condition">Term and Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="return_privacy_policy">Return Privacy Policy</string>
+    <string name="my_downloads">MY DOWNLOADS</string>
+    <string name="my_downloads_header">My Downloads</string>
+    <string name="order_status">Order Status</string>
+    <string name="mydownloads_orderremain">Order Remain</string>
+    <string name="txt_download">Download</string>
+    <string name="no_downloads_product">No Downloadable Products</string>
+    <string name="item_added">Your product is added to cart</string>
+    <string name="total_reviews">Read all %1$s customer reviews </string>
+    <string name="writereview">Write Review</string>
+    <string name="viewreviews">Read all reviews  >> </string>
+    <string name="first_to_review">Be the First to Review this Product</string>
+    <string name="customer_reviews">PRODUCT REVIEWS</string>
+    <string name="write_review">Write Review</string>
+    <string name="write_review_message">HOW DO YOU RATE THIS PRODUCT ?</string>
+    <string name="review_quality">QUALITY</string>
+    <string name="review_value">VALUE</string>
+    <string name="review_price">PRICE</string>
+    <string name="review_summary">REVIEW SUMMARY : </string>
+    <string name="pdp_review_review_detail">LET US KNOW YOUR THOUGHTS :</string>
+    <string name="review_nickname">YOUR NICKNAME :</string>
+    <string name="validate_write_review_message">Please fill above mandatory options</string>
+    <string name="write_review_message_failure">Please Try after sometime !</string>
+    <string name="login_to_review">Please Login to Review Product >> </string>
+    <string name="login_to_add_wishlist"> Please Login to add item to Wishlist</string>
+    <string name="menu_wishlist">WishList</string>
+    <string name="wishlist_header">MY WISHLIST</string>
+    <string name="deleted_from_wishlist">Item successfully deleted from wishlist.</string>
+    <string name="error_message_service">Server not responding ! Please try again later ! </string>
+    <string name="login_to_wishlist">Please login to wishlist</string>
+    <string name="no_wishlist_product">No Products in wishlist</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="txt_email_id">Email Id</string>
+    <string name="txt_current_password">Current Password</string>
+    <string name="txt_see_more">See More >> </string>
+    <string name="product_detail_header">Product Detail</string>
+    <string name="no_contact_entered">No Contact Details added.</string>
+    <string name="price_discount">Selling by Price %1$s</string>
+    <string name="off">off</string>
+    <string name="read_more">READ MORE</string>
+    <string name="read_less">READ LESS</string>
+    <string name="no_spec_provided">No Specification Provided</string>
+    <string name="select_select">Select</string>
+    <string name="color_vary">The Color of the Product may vary by what is shown in image.</string>
+    <string name="edit_edit">EDIT</string>
+    <string name="buy_now">BUY NOW</string>
+    <string name="enter_coupon">Enter Coupon</string>
+    <string name="all">All</string>
+    <string name="select_small">Select</string>
+    <string name="select_shiping">Select Shipping Method</string>
+    <string name="ship_handle">Shipping and Handling</string>
+    <string name="error_message_wrong">SomeThing Went wrong Please try Again</string>
+    <string name="issue_loading">Some error has occured. Please logout and try later!</string>
+    <string name="no_description_added">No Description added</string>
+    <string name="or">Or</string>
+    <string name="txt_posion">Position</string>
+    <string name="txt_price_">Price</string>
+    <string name="txt_direction">Direction</string>
+    <string name="filter_" translatable="false">Filter</string>
+    <string name="sort_">Sort</string>
+    <string name="view_">View</string>
+    <string name="filter_not_avaiblable">Filter not avaiblable</string>
+    <string name="filter_products" translatable="false">filter</string>
+    <string name="back_">BACK</string>
+    <string name="filter_by">FILTER BY :</string>
+    <string name="select_">SELECT :</string>
+    <string name="reset_">Reset</string>
+    <string name="apply_">Apply</string>
+    <string name="filter_counter" translatable="false">(%1$s)</string>
+    <string name="quantity_">Quantity</string>
+    <string name="best_seller_heading"> BEST SELLERS</string>
+    <string name="validCoupon">(%1$s) applied successfully.</string>
+    <string name="default_error_stock" translatable="false">The requested quantity for this item is unavailable.</string>
+    <string name="default_error_out_of_stock" translatable="false">The product is Out of Stock.Please remove from cart.</string>
+    <string name="remove_from_cart_text" translatable="false">Item out of Stock, please remove from cart.</string>
+    <string name="error_quantity_guest" translatable="false">Some of the products in cart are not available. Plese refresh cart.</string>
+    <string name="default_error_stock_title" translatable="false">Stock unavailable</string>
+    <string name="go_to_cart" translatable="false">Go to Cart</string>
+    <string name="cardNumberStripe" translatable="false">Card Number </string>
+
+
+    <!--SORTING -->
+
+    <string name="txt_sort_by">Sort By</string>
+    <string name="txt_sort_products">Sort Products</string>
+    <string name="txt_a_z">Product Name (A-Z)</string>
+    <string name="txt_z_a">Product Name (Z-A)</string>
+    <string name="txt_price_l_h">Price (Low-High)</string>
+    <string name="txt_price_high_low">Price (High-Low)</string>
+    <string name="payment_fails">Your payment has been cancelled please try again</string>
+    <string name="max_quantity">Maximum Quantity Selected</string>
+    <string name="least_quantity">Minimum Quantity Selected</string>
+    <string name="dispaly_shiping_firstName">Shipping first name</string>
+    <string name="dispaly_shiping_lastname">Shipping last name</string>
+    <string name="dispaly_shiping_contactNumber">Shipping contact number</string>
+    <string name="dispaly_shiping_address">Shipping Address</string>
+    <string name="dispaly_shiping_country">Shipping Country</string>
+    <string name="dispaly_shiping_zipcode">Shipping zipcode</string>
+    <string name="dispaly_shiping_state">Shipping town</string>
+    <string name="re_order" translatable="false">mofluid_reorder</string>
+    <string name="out_of_stock_products" translatable="false">Somting went wrong</string>
+    <string name="something_wen_wrong" translatable="false">Somthing went wrong</string>
+    <string name="choose_currency" translatable="false">Change Currency</string>
+    <string name="all_item_out_of_stock" translatable="false">All Item out of stock.</string>
+
+    <string name="edit_change" translatable="false">Edit/Change</string>
+    <string name="add_new" translatable="false">Add New Address</string>
+    <string name="title_activity_address_list" translatable="false">Addresses</string>
+    <!--<string translatable="false" name="brand_a_z">Brand (A-Z)</string>-->
+    <!--<string name="brand_z_a">Brand (Z-A)</string>-->
+    <!--<string name="condition_a_z">Condition (A-Z)</string>-->
+    <!--<string name="condition_z_a">Condition (Z-A)</string>-->
+    <!--<string name="mem_density_a_z">Memory Density (A-Z)</string>-->
+    <!--<string name="mem_density_z_a">Memory Density (Z-A)</string>-->
+    <!--<string name="new_a_z">New (A-Z)</string>-->
+    <!--<string name="new_z_a">New (Z-A)</string>-->
+    <!--<string name="savings_a_z">Biggest Savings (A-Z)</string>-->
+    <!--<string name="savings_z_a">Biggest Savings (Z-A)</string>-->
+    <!--<string name="bestsellers_a_z">Best Sellers (A-Z)</string>-->
+    <!--<string name="bestsellers_z_a">Best Sellers (Z-A)</string>-->
+    <!--<string name="most_viewed_a_z">Most Viewed (A-Z)</string>-->
+    <!--<string name="most_viewed_z_a">Most Viewed (Z-A)</string>-->
+    <!--<string name="toprated_a_z">Top rated (A-Z)</string>-->
+    <!--<string name="toprated_z_a">Top Rated (Z-A)</string>-->
+    <!--<string name="reviews_a_z">Reviews Count (Low-High)</string>-->
+    <!--<string name="reviews_z_a">Reviews Count (High-Low)</string>-->
+    <!--<string name="wishlist_a_z">Now in WishLists (A-Z)</string>-->
+    <!--<string name="wishlist_z_a">Now in WishLists (Z-A)</string>-->
+
+
+    <!--SORTING -->
+
+    <!--login and forgot password screen-->
+    <string name="subtitle_text" translatable="false">Preview and manage your app</string>
+    <string name="id_text" translatable="false">Enter your email id</string>
+    <string name="password_text" translatable="false">Password</string>
+    <string name="login_button_text" translatable="false">Login to your store</string>
+    <string name="dont_have_account_text" translatable="false">Don\'t have account?</string>
+    <string name="see_demo_text" translatable="false">See a Demo</string>
+    <string name="forgot_password_text" translatable="false">Forgot your password?</string>
+    <string name="agreement_text" translatable="false">By logging in you agree to our </string>
+    <string name="privacy_policy_text" translatable="false">Privacy Policies</string>
+    <string name="retrive_password" translatable="false">Retrive Your Password</string>
+    <string name="forgot_password_header1" translatable="false">Please provide registered email id to retrive your password</string>
+    <string name="exit_demo" translatable="false">Exit Demo</string>
+    <string name="wrong_pass" translatable="false">User ID or password is incorrect</string>
+    <string name="previe_demo" translatable="false">Exit Preview</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
+
+

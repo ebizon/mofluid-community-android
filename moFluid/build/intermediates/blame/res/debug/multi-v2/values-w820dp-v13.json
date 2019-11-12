@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/res/values-w820dp/dimens.xml",
+                    "from": {
+                        "startLines": "7,10,11,13,9,16,15,14,12,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "305,413,465,554,364,702,651,600,510,750",
+                        "endColumns": "57,51,44,45,48,46,50,50,43,45",
+                        "endOffsets": "358,460,505,595,408,744,697,646,549,791"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,165,210,256,305,352,403,454,498",
+                        "endColumns": "57,51,44,45,48,46,50,50,43,45",
+                        "endOffsets": "108,160,205,251,300,347,398,449,493,539"
+                    }
+                },
+                {
+                    "source": "/home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/res/values-w820dp/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "544",
+                        "endColumns": "54",
+                        "endOffsets": "594"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_row"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtV_pro_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_level_one"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textColor="@color/font_color"
+        android:text="Product name"/>
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgV_pro"
+            android:layout_width="@dimen/width_my_cart_pic"
+            android:layout_height="@dimen/height_my_cart"
+            android:background="@drawable/default_mofluid"/>
+        <LinearLayout
+            android:id="@+id/ll_txtV_pro_qnty"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtV_pro_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/font_color_black_light"
+                android:textSize="@dimen/font_size_level_two"
+                android:text="total price"/>
+            <TextView
+                android:id="@+id/txtV_pro_qnty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/font_color_black_light"
+                android:layout_marginStart="20dp"
+                android:textSize="@dimen/font_size_level_two"
+                android:text="total price"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtV_pro_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/ll_txtV_pro_qnty"
+            android:textColor="@color/font_color_black_light"
+            android:textSize="@dimen/font_size_level_two"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="20dp"
+            android:text="total price"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/color_verticle_line"
+        android:layout_marginTop="10dp"
+        android:layout_height="1dp"/>
+
+</LinearLayout>

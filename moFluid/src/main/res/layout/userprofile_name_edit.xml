@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="@dimen/height_image_user"
+    android:paddingTop="12dp"
+    android:paddingBottom="1dp"
+    android:paddingEnd="4dp"
+    android:paddingStart="8dp"
+    android:weightSum="102">
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100dp">-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgv_user_profile_image"
+        android:layout_height="match_parent"
+        android:layout_width="@dimen/width_image_user"
+        android:src="@drawable/user1"
+        android:layout_marginEnd="10dp"/>
+
+    <LinearLayout
+        android:layout_toEndOf="@+id/imgv_user_profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="10dp"
+        android:orientation="vertical"
+        android:layout_weight="105">\
+
+        <RelativeLayout
+            android:id="@+id/rl_edit_address"
+            android:layout_width="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/app_color"
+            android:layout_gravity="end">
+
+            <ImageView
+                android:id="@+id/edit_address"
+                android:layout_width="@dimen/width_height_edit"
+                android:layout_centerVertical="true"
+                android:layout_height="@dimen/width_height_edit"
+                android:src="@drawable/edit_ship_bill"/>
+
+            <TextView
+                android:id="@+id/txtv_user_profile_edit_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_edit"
+                android:textColor="@color/font_review_title"
+                android:layout_toEndOf="@+id/edit_address"
+                android:textSize="14sp"
+                android:padding="5dp"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/txtv_user_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_level_one"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:textAlignment="viewStart"
+            android:textColor="@color/font_pdp_product_name"
+            android:paddingEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/txtv_user_profile_display_address"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="2dp"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            android:textSize="@dimen/profile_user_name"
+            android:layout_marginEnd="30dp"
+            android:ellipsize="end"
+            android:paddingEnd="10dp" />
+
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="5dp">-->
+
+        <!--<ImageView-->
+        <!--android:foregroundGravity="center"-->
+        <!--android:id="@+id/imgv_bill_icon"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/bill_icon"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/txtv_user_profile_address_billing"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="2dp"-->
+        <!--android:paddingRight="2dp"-->
+        <!--android:paddingBottom="2dp"-->
+        <!--android:textSize="@dimen/font_size_level_two"-->
+        <!--android:maxLines="1"-->
+        <!--android:paddingLeft="5dp"-->
+        <!--android:layout_toRightOf="@+id/imgv_bill_icon"-->
+        <!--android:text="Billing Address"-->
+        <!--/>-->
+        <!--<TextView-->
+        <!--android:id="@+id/txtv_user_profile_edit_billing"-->
+        <!--android:clickable="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="2dp"-->
+        <!--android:paddingRight="3dp"-->
+        <!--android:paddingLeft="2dp"-->
+        <!--android:paddingBottom="2dp"-->
+        <!--android:text="Edit"-->
+        <!--android:textColor="@color/DarkBlue"-->
+        <!--android:textSize="@dimen/font_size_level_two"-->
+        <!--android:layout_alignParentRight="true"/>-->
+
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="5dp">-->
+
+        <!--<ImageView-->
+        <!--android:foregroundGravity="center"-->
+        <!--android:id="@+id/imgv_ship_icon"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/ship_icon"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/txtv_user_profile_address_shipping"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="2dp"-->
+        <!--android:paddingRight="2dp"-->
+        <!--android:paddingBottom="2dp"-->
+        <!--android:textSize="@dimen/font_size_level_two"-->
+        <!--android:maxLines="1"-->
+        <!--android:paddingLeft="5dp"-->
+        <!--android:layout_toRightOf="@+id/imgv_ship_icon"-->
+        <!--android:text="Shipping Address"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/txtv_user_profile_edit_shipping"-->
+        <!--android:clickable="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="2dp"-->
+        <!--android:paddingRight="3dp"-->
+        <!--android:paddingLeft="2dp"-->
+        <!--android:paddingBottom="2dp"-->
+        <!--android:text="Edit"-->
+        <!--android:textColor="@color/DarkBlue"-->
+        <!--android:textSize="@dimen/font_size_level_two"-->
+        <!--android:layout_alignParentRight="true"/>-->
+
+        <!--</RelativeLayout>-->
+
+    </LinearLayout>
+
+</LinearLayout>

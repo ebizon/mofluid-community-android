@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:drawable="@color/add_to_cart_btn_color_pressed" android:state_selected="true"></item>-->
+    <item android:drawable="@color/btn_buy_now" android:state_pressed="true"></item>
+    <item android:drawable="@color/btn_buy_now"></item>
+</selector>

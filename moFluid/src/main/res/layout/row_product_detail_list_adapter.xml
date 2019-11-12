@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="1dp"
+    android:paddingEnd="1dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:background="@color/bg_white">
+    <ImageView
+        android:id="@+id/imgV_id"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_img_row_product_detail_list"
+        android:adjustViewBounds="true"
+        android:src="@drawable/default_mofluid"/>
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="@dimen/pdp_geidview_product_price_font_size"
+        android:text="Product Name"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp" >
+    </TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtV_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="price"
+            android:textSize="12sp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/font_color_black_light" />
+        <TextView
+            android:id="@+id/txtV_special_price"
+            android:layout_toEndOf="@+id/txtV_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="special pricr"
+            android:textSize="@dimen/pdp_geidview_product_price_font_size"
+            android:gravity="center_horizontal"
+            android:textColor="#ff0000"
+            android:layout_marginStart="5dp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

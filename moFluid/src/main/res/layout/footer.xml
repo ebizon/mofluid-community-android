@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/fotter"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/footer_height"
+    android:layout_alignParentBottom="true"
+    android:background="@color/app_color"
+    android:orientation="horizontal"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:weightSum="4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/ll_home"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/footer_height"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:background="@color/app_color"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_bottom_icon">
+
+        <ImageView
+            android:id="@+id/imgV_home"
+            android:layout_marginTop="@dimen/footer_margin_size"
+            android:layout_width="@dimen/width_footer_icon"
+            android:layout_height="@dimen/height_footer_icon"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/home" />
+        <TextView
+            android:id="@+id/txt_foot_home"
+            android:layout_height="@dimen/height_footer_text"
+            android:layout_width="@dimen/width_footer_text"
+            android:gravity="center_horizontal"
+            android:textColor="@color/footer_text_color"
+            android:layout_marginTop="@dimen/footer_text_margin_top"
+            android:layout_marginBottom="@dimen/footer_margin_size_text"
+            android:text="@string/home"
+            android:textSize="@dimen/font_size_level_five">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/footer_height"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:background="@color/app_color"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_bottom_icon">
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_marginTop="@dimen/footer_margin_size"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/width_footer_icon"
+            android:layout_height="@dimen/height_footer_icon"
+            android:background="@drawable/search_icon" />
+
+        <TextView
+            android:id="@+id/txt_foot_search"
+            android:layout_height="@dimen/height_footer_text"
+            android:layout_width="@dimen/width_footer_text"
+            android:gravity="center_horizontal"
+            android:textColor="@color/footer_text_color"
+            android:layout_marginTop="@dimen/footer_text_margin_top"
+            android:layout_marginBottom="@dimen/footer_margin_size_text"
+            android:textSize="@dimen/font_size_level_five"
+            android:text="@string/search">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_sign_in_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/footer_height"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:background="@color/app_color"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_bottom_icon">
+
+
+        <ImageView
+            android:id="@+id/iv_sign_in_sign_up"
+            android:layout_marginTop="@dimen/footer_margin_size"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/width_footer_icon"
+            android:layout_height="@dimen/height_footer_icon"
+            android:background="@drawable/usericon"
+            android:clickable="true" />
+
+        <TextView
+            android:id="@+id/txt_foot_user"
+            android:layout_height="@dimen/height_footer_text"
+            android:layout_width="@dimen/width_footer_text"
+            android:gravity="center_horizontal"
+            android:textColor="@color/footer_text_color"
+            android:layout_marginTop="@dimen/footer_text_margin_top"
+            android:layout_marginBottom="@dimen/footer_margin_size_text"
+            android:textSize="@dimen/font_size_level_five"
+            android:text="@string/account">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/footer_height"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:background="@color/app_color"
+        android:gravity="center"
+        android:orientation="vertical"        >
+
+        <LinearLayout
+            android:id="@+id/ll_my_cart"
+            android:layout_marginTop="@dimen/margin_top_cart"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_cart_footer"
+            android:background="@color/app_color"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/margin_bottom_cart_icon"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/width_footer_icon"
+                android:layout_height="@dimen/height_footer_icon"
+                android:layout_alignStart="@+id/iv_sign_in_sign_up11"
+                android:background="@drawable/cart_foot" />
+
+            <TextView
+                android:id="@+id/txtV_item_counter"
+                android:layout_width="@dimen/width_footer_icon_item_count"
+                android:layout_height="@dimen/height_footer_icon_item_count"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-5dp"
+                android:layout_marginTop="-4dp"
+                android:background="@drawable/circle_shape"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="1"
+
+                android:textColor="@color/bg_white"
+                android:textSize="@dimen/font_size_level_four" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_foot_cart"
+            android:layout_height="@dimen/height_footer_text"
+            android:paddingEnd="@dimen/padding_cart_text"
+            android:paddingTop="@dimen/padding_top_cart_text"
+            android:layout_width="@dimen/width_footer_text"
+            android:gravity="center_horizontal"
+            android:textColor="@color/footer_text_color"
+            android:textSize="@dimen/font_size_level_five"
+            android:text="@string/cart">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

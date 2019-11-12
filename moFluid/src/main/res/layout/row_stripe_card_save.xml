@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/White"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="8dp"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgv_card_type_stripe"
+        android:layout_weight="0"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:src="@drawable/visa"/>
+
+        <TextView
+            android:id="@+id/txtv_card_details_stripe"
+            android:layout_weight="20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/font_pdp_product_name"
+            android:text="Amex card ending in 4242"
+            android:paddingLeft="3dp"
+            android:textSize="16sp"
+            android:gravity="center_vertical"/>
+
+        <ImageView
+            android:id="@+id/imgv_checked_stripe"
+            android:layout_weight="80"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/checked_store"
+            android:visibility="invisible"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="match_parent" android:id="@+id/iv_preview_image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="visible">
+        <ProgressBar
+            android:id="@+id/progressBar_imgLoading2"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager_banner2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+
+    <Button android:layout_width="30sp"
+        android:layout_height="30sp" android:background="@drawable/close"
+        android:id="@+id/btnIvClose" android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"/>
+
+</RelativeLayout>

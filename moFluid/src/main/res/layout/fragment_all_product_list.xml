@@ -1,0 +1,25 @@
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+        <ImageView
+            android:id="@+id/imgV_banner_img"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/shirt"
+            android:visibility="gone"
+          />
+    <com.mofluid.magento2.custome.widget.CustomePullListview
+
+            android:id="@+id/listV_all_products"
+             android:fadingEdge="none"
+            android:layout_below="@+id/imgV_banner_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:layout_alignParentBottom="true">
+        </com.mofluid.magento2.custome.widget.CustomePullListview>
+
+
+
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

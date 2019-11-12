@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="9dp"
+    android:layout_marginEnd="9dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/custome_rectangle_border"
+   >
+
+    <View
+        android:id="@+id/config_strikethru"
+        android:layout_width="45dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:background="@color/Black"></View>
+
+    <TextView
+        android:id="@+id/configurable_attribute"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Blue"
+        android:gravity="center"
+        android:textDirection="anyRtl"
+        android:textColor="@color/font_color"
+        android:textSize="@dimen/font_size_level_two"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+         />
+</FrameLayout>

@@ -1,0 +1,184 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_bottom_icon">2dp</dimen>
+    <dimen name="font_size_slide_menu_group">16dp</dimen>
+    <dimen name="font_size_slide_menu_child">14dp</dimen>
+    <dimen name="width_footer_icon">20dp</dimen>
+    <dimen name="height_footer_icon">20dp</dimen>
+    <dimen name="height_footer_text">20dp</dimen>
+    <dimen name="width_footer_text">40dp</dimen>
+    <dimen name="footer_margin_size">18dp</dimen>
+    <dimen name="footer_margin_size_text">5dp</dimen>
+    <dimen name="footer_text_margin_top">2dp</dimen>
+    <dimen name="header_width">27dp</dimen>
+    <dimen name="header_height">45dp</dimen>
+    <dimen name="height_image_user">120dp</dimen>
+    <dimen name="stripe_list_height">200dp</dimen>
+
+    <!--for slider menu child layout-->
+    <dimen name="child_margin">10dp</dimen>
+    <dimen name="child_margin_left">18dp</dimen>
+    <dimen name="parent_margin_left">15dp</dimen>
+
+    <!--featured products and new product font size-->
+    <dimen name="featured_new_product_font_size">14sp</dimen>
+    <dimen name="product_name_font_size">12sp</dimen>
+    <dimen name="product_price_font_size">10sp</dimen>
+    <!--product detyail page grid view product name and price font size-->
+    <dimen name="pdp_review_no_review">16sp</dimen>
+    <dimen name="pdp_geidview_product_price_font_size">12sp</dimen>
+
+    <dimen name="font_size_level_four">9sp</dimen>
+    <dimen name="font_size_level_five">8sp</dimen>
+    <dimen name="font_size_level_three">12sp</dimen>
+    <dimen name="font_size_level_two">15sp</dimen>
+    <dimen name="font_size_level_twopoint">16sp</dimen>
+    <dimen name="font_size_level_one">18sp</dimen>
+    <dimen name="font_size_heading">18sp</dimen>
+    <dimen name="font_review">30sp</dimen>
+
+    <dimen name="product_info_margin">4dp</dimen>
+    <dimen name="divider_bottom_margin">8dp</dimen>
+    <dimen name="margin_header_text_product">10dp</dimen>
+    <dimen name="margin_header_text_product_bottom">8dp</dimen>
+    <dimen name="profile_user_name">14sp</dimen>
+
+
+    <dimen name="height_header_log">30dp</dimen>
+    <dimen name="appbar_divider_height">1dp</dimen>
+    <dimen name="footer_height">40dp</dimen>
+    <dimen name="width_slide">250dp</dimen>
+    <dimen name="height_banner">170dp</dimen>
+    <dimen name="height_new_product">240dp</dimen>
+    <dimen name="height_new_feature">240dp</dimen>
+
+    <dimen name="height_sortby_row">35dp</dimen>
+    <dimen name="width_my_cart">60dp</dimen>
+    <dimen name="height_my_cart">60dp</dimen>
+
+    <integer name="column_number">2</integer>
+    <integer name="over_scroll_distance_">100</integer>
+
+
+    <dimen name="width_my_cart_pic">90dp</dimen>
+    <dimen name="height_my_cart_pic">105dp</dimen>
+    <dimen name="width_my_order">100dp</dimen>
+    <dimen name="height_my_order_pic">120dp</dimen>
+    <dimen name="width_minus_plus_my_cart">22dp</dimen>
+    <dimen name="height_minus_plus_my_cart">22dp</dimen>
+    <dimen name="width_count_my_cart">35dp</dimen>
+    <dimen name="margin_left_right">2dp</dimen>
+    <dimen name="padding__txt_cart_heading">3dp</dimen>
+    <dimen name="height_all_product_banner_img">250dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- height of banner image in single product fragment. -->
+    <dimen name="padding_left">20dp</dimen>
+    <dimen name="padding_right">20dp</dimen>
+    <dimen name="height_edittext">35dp</dimen>
+    <dimen name="margin_top_edittext_billing_shipping">10dp</dimen>
+    <dimen name="margin_top_textview_billing_shipping">15dp</dimen>
+    <dimen name="height_spinner">35dp</dimen>
+    <dimen name="padding_font_edit_text">5dp</dimen>
+    <dimen name="width_product_homefragment">140dp</dimen>
+    <dimen name="padding_home">10dp</dimen>
+    <dimen name="padding_home_1">7dp</dimen>
+    <dimen name="height_product_detail_banner">150dp</dimen>
+    <dimen name="width_footer_icon_item_count">14dp</dimen>
+    <dimen name="height_footer_icon_item_count">13dp</dimen>
+    <dimen name="height_img_row_product_detail_list">175dp</dimen>
+    <dimen name="margin_top_show_shiping_addres">5dp</dimen>
+    <dimen name="padding_app_txt_btn">3dp</dimen>
+    <dimen name="margin_top_app_text_btn">20dp</dimen>
+    <dimen name="padding_top_header_text">6dp</dimen>
+
+    <dimen name="paddig_txtV_order_ack">8dp</dimen>
+    <dimen name="height_product_detail_banner_single">300dp</dimen>
+
+
+    <!--  authorize-->
+    <!-- <dimen name="activity_horizontal_margin">10dp</dimen>
+     <dimen name="activity_vertical_margin">10dp</dimen>-->
+    <dimen name="field_content_size">17sp</dimen>
+    <dimen name="login_text_size">20sp</dimen>
+    <dimen name="icon_padding">7dp</dimen>
+    <dimen name="card_field_padding">10dp</dimen>
+    <dimen name="header_image_height">25dp</dimen>
+    <dimen name="cms_spacing">7dp</dimen>
+    <dimen name="full_button_txt">30dp</dimen>
+    <dimen name="padding_top">15dp</dimen>
+    <dimen name="padding_pdp_heading">6dp</dimen>
+    <dimen name="padding_pdp_layouts">4dp</dimen>
+    <dimen name="padding_pdp_quantity">15dp</dimen>
+    <dimen name="font_size_product_description">16sp</dimen>
+    <dimen name="font_pdp_review_item">15sp</dimen>
+    <dimen name="font_pdp_review_description">17sp</dimen>
+    <dimen name="margin_top_cart">11dp</dimen>
+    <dimen name="margin_bottom_cart_icon">0dp</dimen>
+    <dimen name="height_cart_footer">24dp</dimen>
+    <dimen name="padding_top_cart_text">0dp</dimen>
+    <dimen name="padding_cart_text">4dp</dimen>
+    <dimen name="margint_top_cart_name">-28dp</dimen>
+    <dimen name="description_value">13sp</dimen>
+    <dimen name="height_write_review">30dp</dimen>
+    <dimen name="height_login_button">30dp</dimen>
+    <dimen name="font_size_or">15sp</dimen>
+    <dimen name="margin_top_forgot_pwd">10dp</dimen>
+    <dimen name="margin_top_show_pwd">2dp</dimen>
+    <dimen name="width_profile_header">113dp</dimen>
+    <dimen name="width_profile_pwd">140dp</dimen>
+    <dimen name="logout_button">16dp</dimen>
+    <dimen name="width_height_edit">18dp</dimen>
+    <dimen name="width_image_user">80dp</dimen>
+    <dimen name="height_header_config">40dp</dimen>
+    <dimen name="margin_reorder_top">5dp</dimen>
+    <dimen name="btn_flat_add_to_cart_height">45dp</dimen>
+    <dimen name="width_heart_icon">30dp</dimen>
+    <dimen name="height_heart_icon">30dp</dimen>
+    <dimen name="padding_heart_icon">5dp</dimen>
+    <dimen name="btn_width_quantity">26dp</dimen>
+    <dimen name="btn_height_quantity">26dp</dimen>
+    <dimen name="font_size_quantity_level">10sp</dimen>
+    <dimen name="btn_add_to_cart_height">30dp</dimen>
+    <dimen name="font_size_addto_cart_btn">12sp</dimen>
+    <dimen name="height_config">45dp</dimen>
+    <dimen name="btn_text_size">14dp</dimen>
+    <dimen name="app_side_space">30dp</dimen>
+    <dimen name="comman_img_height">150dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!--<dimen name="padding_cart_text_empty">4dp</dimen>-->
+
+    <!--login and forgot password screen-->
+    <dimen name="subtitle_text_size">19dp</dimen>
+    <dimen name="id_password_text_size">15dp</dimen>
+    <dimen name="login_button_text_size">18dp</dimen>
+    <dimen name="dont_have_account_text_size">14dp</dimen>
+    <dimen name="see_demo_text_size">14dp</dimen>
+    <dimen name="forgot_password_text_size">13dp</dimen>
+    <dimen name="agreement_text_size">12dp</dimen>
+    <dimen name="privacy_policy_text_size">12dp</dimen>
+    <dimen name="logo_margin_top">10dp</dimen>
+    <dimen name="logo_preview_margin">10dp</dimen>
+    <dimen name="preview_tv_margin">40dp</dimen>
+    <dimen name="tv_login_button_margin">8dp</dimen>
+    <dimen name="login_dnt_account_margin">9dp</dimen>
+    <dimen name="dnt_account_forgot_password_margin">20dp</dimen>
+    <dimen name="forgot_password_privacy_margin">150dp</dimen>
+    <dimen name="forgot_password_privacy_margin_from_bottom">10dp</dimen>
+    <dimen name="logo_height">35dp</dimen>
+    <dimen name="layout_padding">20dp</dimen>
+    <dimen name="tv_hieght">50dp</dimen>
+    <dimen name="tv_padding">5dp</dimen>
+    <dimen name="exit_demo_width">10dp</dimen>
+    <dimen name="forgot_password_sub_margin">10dp</dimen>
+    <dimen name="sub_tv_margin">60dp</dimen>
+    <dimen name="forgot_pass_top_margin">10dp</dimen>
+    <dimen name="forgot_pass_header_text_size">25dp</dimen>
+    <dimen name="sub_tv_forgot_margin">20dp</dimen>
+
+    <!-- for appbar in activity_main.xml-->
+    <dimen name="appbar_option_menu_offset_left">72dp</dimen>
+    <dimen name="appbar_option_menu_offset_right">72dp</dimen>
+</resources>

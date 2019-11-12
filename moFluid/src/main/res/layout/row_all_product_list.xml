@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+   >
+    <TextView
+        android:id="@+id/txtV_banner_img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_all_product_banner_img"
+        android:background="@drawable/default_mofluid"
+        android:gravity="center"
+        android:text="@string/products_text"
+        android:visibility="gone"
+        android:textSize="@dimen/font_size_heading"
+       />
+    <RelativeLayout
+        android:layout_below="@+id/txtV_banner_img"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+    <TextView
+
+        android:id="@+id/txt_all_product_name"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_level_two"
+        android:text="@string/all_products"/>
+    <ImageView
+        android:id="@+id/imgV_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/arrow_right_white"/>
+        </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_pdp_description"
+    android:layout_width="match_parent"
+    android:paddingBottom="@dimen/padding_pdp_heading"
+    android:paddingStart="@dimen/padding_pdp_quantity"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc_pdp"
+            android:text="@string/description_header"
+            android:textColor="@color/font_pdp_product_name"
+            android:textSize="@dimen/font_size_product_description"
+            android:paddingTop="@dimen/padding_pdp_heading"
+            android:paddingEnd="4dp"
+            android:paddingBottom="4dp"
+            />
+        <!--<ImageView-->
+            <!--android:id="@+id/imgv_pdp_description_open"-->
+            <!--android:layout_width="24dp"-->
+            <!--android:foregroundGravity="center"-->
+            <!--android:paddingRight="@dimen/cms_spacing"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_height="24dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:src="@drawable/arrow_bottom" />-->
+
+    <!--</RelativeLayout>-->
+
+    <at.blogc.android.views.ExpandableTextView
+        android:id="@+id/txtv_pdp_product_description"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/description_value"
+        android:textSize="@dimen/description_value"
+        android:textColor="@color/font_pdp_favourite"
+        android:paddingTop="@dimen/padding_pdp_layouts"
+        android:paddingBottom="2dp"
+        android:layout_marginEnd="6dp"
+        android:paddingEnd="@dimen/padding_pdp_heading"
+        android:maxLines="3"
+        android:ellipsize="end"
+        app:animation_duration="1000"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp">
+
+    <TextView
+        android:id="@+id/txtv_pdp_read_more_description"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:textColor="@color/font_pdp_product_name"
+        android:textSize="@dimen/font_size_product_description"
+        android:paddingTop="4dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="4dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_pdp_rectangle"
+        android:text="@string/read_more"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

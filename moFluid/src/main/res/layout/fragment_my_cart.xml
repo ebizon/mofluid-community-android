@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    background="@color/bg_white"
+  >
+
+    <!--OPEN TAG if item is added in cart then show-->
+    <RelativeLayout
+        android:id="@+id/rl_cart_item_available"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tct_my_cart"
+        android:layout_above="@+id/tct_continue_shoping"
+        android:layout_marginEnd="@dimen/margin_left_right"
+        android:layout_marginStart="@dimen/margin_left_right"
+        android:visibility="visible">
+    <ListView
+        android:id="@+id/listV_my_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:clickable="false"
+        android:layout_above="@+id/rl_total_checkout">
+    </ListView>
+    <RelativeLayout
+        android:id="@+id/rl_total_checkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/show_only_top_line"
+
+       >
+        <TextView
+            android:id="@+id/txtV_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_heading"
+            android:textDirection="anyRtl"
+            android:textAlignment="viewStart"
+            android:text="@string/total"
+            android:gravity="start"
+            />
+        <TextView
+            android:id="@+id/txtV_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textDirection="anyRtl"
+            android:textAlignment="viewStart"
+            android:textSize="@dimen/font_size_heading"
+            android:text="@string/total_value"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/font_red_color"
+           />
+        <TextView
+            android:id="@+id/txtV_check_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_heading"
+            android:padding="@dimen/padding__txt_cart_heading"
+            android:textDirection="anyRtl"
+            android:text="@string/check_out"
+            android:background="@color/btn_buy_now"
+            android:layout_below="@+id/txtV_total_price"
+            android:textColor="@color/bg_white"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+        ></TextView>
+
+        <TextView
+            android:id="@+id/tct_continue_shoping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_heading"
+            android:padding="@dimen/padding__txt_cart_heading"
+            android:text="@string/continue_shoping"
+            android:background="@color/pdp_btn_color"
+            android:layout_below="@+id/txtV_check_out"
+            android:textColor="@color/font_color_white"
+            android:textDirection="anyRtl"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp" />
+
+
+    </RelativeLayout>
+    </RelativeLayout>
+    <!--END TAG if item is added in cart then show-->
+
+
+    <!--OPEN TAG if there is no item in cart-->
+    <RelativeLayout
+        android:id="@+id/rl_no_item_in_my_cart"
+        android:layout_below="@+id/tct_my_cart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/bg_white"
+        android:visibility="gone">
+    <ImageView
+        android:id="@+id/imgV_my_cart"
+        android:layout_width="@dimen/width_my_cart"
+        android:layout_height="@dimen/height_my_cart"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cart"/>
+    <TextView
+        android:id="@+id/tct_my_cart_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_heading"
+        android:padding="10dp"
+        android:text="@string/my_cart_message"
+        android:layout_below="@+id/imgV_my_cart"
+        android:gravity="center"
+        android:textColor="@color/font_black_color"
+        android:layout_marginTop="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/tct_add_item_now"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_level_two"
+            android:padding="4dp"
+            android:text="@string/add_item_to_it_now"
+            android:layout_below="@+id/tct_my_cart_message"
+            android:gravity="center"
+            android:textColor="@color/font_color_black_light"
+            android:layout_marginTop="0dp"></TextView>
+        <LinearLayout
+            android:layout_below="@+id/tct_add_item_now"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_shop_to_cotinue"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/shop_now"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textSize="@dimen/font_size_level_one"
+            android:background="@color/btn_buy_now"
+            android:textColor="@color/bg_white"
+            android:gravity="center"
+           />
+        </LinearLayout>
+
+    </RelativeLayout>
+    <!--END TAG if there is no item in cart-->
+
+
+    <!--OPEN TAG show always Countinue shoping-->
+    <!--<TextView
+        android:id="@+id/tct_continue_shoping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_heading"
+        android:textColor="@color/font_white_color"
+        android:padding="@dimen/padding__txt_cart_heading"
+        android:text="@string/continue_shoping"
+        android:background="@color/bg_black"
+        android:layout_below="@+id/imgV_my_cart"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/margin_left_right"
+        android:layout_marginLeft="@dimen/margin_left_right"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="@dimen/margin_bottom_cart_continue_shoping"/>
+
+  -->  </com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

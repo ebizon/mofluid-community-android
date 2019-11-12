@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="Discount">Rabatt</string>
+    <string name="Select">Wählen %1$s</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alle ansehen"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"Aus"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"An"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Strg +"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Löschen"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Eingabetaste"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Funktionstaste +"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta-Taste +"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Umschalttaste +"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"Leertaste +"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym-Taste +"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menütaste +"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Suchen…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Suchen"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Suchanfrage senden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Mit <ns1:g id="APPLICATION_NAME">%s</ns1:g> teilen"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="about_us">Über uns</string>
+    <string name="account">KONTO</string>
+    <string name="account_s">Konto</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="add_item_to_it_now">Artikel in den es jetzt?</string>
+    <string name="add_to_cart">In den Warenkorb legen</string>
+    <string name="additional_information">zusätzliche Information</string>
+    <string name="all">Alle</string>
+    <string name="all_products">Alle Produkte</string>
+    <string name="allready_have_an_account">Hast du schon ein Konto ?</string>
+    <string name="apply_">anwenden</string>
+    <string name="apply_coupon">bewerben Coupon</string>
+    <string name="back_">ZURÜCK</string>
+    <string name="back_to_exit">Bitte klicken BACK wieder zu verlassen</string>
+    <string name="best_seller_heading">BESTSELLER</string>
+    <string name="billing_address">Rechnungsadresse</string>
+    <string name="billing_and_shipping_header">LIEFERANSCHRIFT</string>
+    <string name="billing_header">BILLING ADRESSE</string>
+    <string name="billing_shipping_same"><![CDATA[Billing & Lieferanschrift]]></string>
+    <string name="blank_entry">Bitte füllen Sie den obigen Text</string>
+    <string name="botth_pass_must_be_same">Neues Passwort und Passwort bestätigen ist nicht dasselbe </string>
+    <string name="buy_now">KAUFE JETZT</string>
+    <string name="card_length_error_message">Geben Sie eine 16-stellige Nummer</string>
+    <string name="card_number">Geben Sie 16-stellige Kartennummer </string>
+    <string name="card_number_hint">16-stellige Nummer</string>
+    <string name="cart"> KARTE</string>
+    <string name="cart_header">MEIN WARENKORB</string>
+    <string name="cart_s">Karte</string>
+    <string name="cash_on_delivery">Nachnahme</string>
+    <string name="change_passsword">Passwort ändern</string>
+    <string name="change_password">Passwort ändern</string>
+    <string name="change_password_header">PASSWORT ÄNDERN</string>
+    <string name="check_out">Zur Kasse gehen</string>
+    <string name="check_out_as_guest_or_register_or_login">Einloggen oder Registrieren</string>
+    <string name="check_out_continue"> Fortsetzen</string>
+    <string name="choose_store">Shop auswählen</string>
+    <string name="color_vary">Die Farbe des Produkts kann durch variieren, was in Bild gezeigt wird</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">Gehe zu &lt;b>facebook.com/device&lt;/b> und gib den oben angezeigten Code ein.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">Unerwarteter Fehler beim Herunterladen eines Bildes.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView-Anmeldung erfordert INTERNET-Berechtigung</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidOffensichtlicher Fehler</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">Gefällt dir</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">Gefällt mir</string>
+    <string gender="unknown" name="com_facebook_loading">Wird geladen ...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">Abbrechen</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">Melde dich an</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Weiter mit Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Mit Facebook anmelden</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">Abmelden</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">Abmelden</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">Angemeldet als: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Mit Facebook angemeldet</string>
+    <string gender="unknown" name="com_facebook_send_button_text">Senden</string>
+    <string gender="unknown" name="com_facebook_share_button_text">Teilen</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">Öffne die Facebook-App auf deinem Mobilgerät, um dich mit deinem Konto zu verbinden und nach Benachrichtigungen zu suchen.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- ODER -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">Das bist du nicht?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">Weiter als %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">Anmeldung bestätigen</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">Du bestimmst, welche Informationen du mit Apps teilen möchtest.</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktivieren"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> funktioniert erst nach der Aktivierung der Google Play-Dienste."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play-Dienste aktivieren"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installieren"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind die Google Play-Dienste erforderlich, die auf deinem Gerät nicht installiert sind."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play-Dienste installieren"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Verfügbarkeit von Google Play-Diensten"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Fehler bei Zugriff auf Google Play-Dienste"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> hat Probleme mit Google Play-Diensten. Bitte versuche es noch einmal."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind Google Play-Dienste erforderlich, die auf deinem Gerät nicht unterstützt werden."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Aktualisieren"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> wird nur ausgeführt, wenn du die Google Play-Dienste aktualisierst."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play-Dienste aktualisieren"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind Google Play-Dienste erforderlich, die gerade aktualisiert werden."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Eine neue Version der Google Play-Dienste wird benötigt. Diese wird in Kürze automatisch aktualisiert."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Auf Smartphone öffnen"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Anmelden"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Über Google anmelden"</string>
+    <string name="configurable_message">Bitte wählen Sie aus über Optionen</string>
+    <string name="confirm_password"> Bestätige das Passwort</string>
+    <string name="contact_info">Kontaktinformation</string>
+    <string name="continue_btn"> Fortsetzen</string>
+    <string name="continue_shoping"> Mit dem Einkaufen fortfahren</string>
+    <string name="correct_email">Geben Sie eine gültige E-Mail-ID</string>
+    <string name="create_an_account">Neuer Benutzer ? Jetzt registrieren</string>
+    <string name="credit_card_icon">Kreditkarte Icon</string>
+    <string name="customer_reviews">PRODUKTREZENSIONEN</string>
+    <string name="cvv_hint"> 3-stellige Nummer</string>
+    <string name="cvv_length_error_message">Geben Sie eine 3-stellige Zahl.</string>
+    <string name="cvv_number"> Sicherheitscode</string>
+    <string name="default_value_edit">Standardwert</string>
+    <string name="deleted_from_wishlist">Artikel erfolgreich von der Wunschliste gestrichen.</string>
+    <string name="description_header"> Beschreibung</string>
+    <string name="description_value">Beschreibung Wert</string>
+    <string name="desktop_icon">Schreibtischsymbol</string>
+    <string name="dialog_message_check_unsettled_transactions">Bitte überprüfen Sie Ihre abgewickelten Transaktionen.</string>
+    <string name="dialog_message_invalid_field">Eine oder mehrere der Felder, die Sie eingegeben haben, ist falsch. Bitte überprüfen Sie Ihre Eingaben und versuchen Sie es erneut.</string>
+    <string name="dialog_message_login_error"> Der Benutzername oder das Passwort eingegeben haben, ist falsch. Bitte überprüfen Sie Ihre Eingaben und versuchen Sie es erneut.</string>
+    <string name="dialog_message_session_expired"> Deine Sitzung ist abgelaufen. Bitte melden Sie sich erneut an</string>
+    <string name="dialog_message_unknown_error"> Ein unbekannter Fehler ist aufgetreten.</string>
+    <string name="dialog_session_expired_no_choice">Schließen</string>
+    <string name="dialog_session_expired_yes_choice">Anmeldung</string>
+    <string name="dialog_title_error"> Fehler</string>
+    <string name="dialog_title_login_error">Login Fehler</string>
+    <string name="dialog_title_session_expired"> Sitzung abgelaufen</string>
+    <string name="dialog_title_transaction_not_refunded">Rückerstattung Erfolglose</string>
+    <string name="dialog_title_transaction_not_voided"> Void Erfolglose</string>
+    <string name="dialog_title_transaction_unsuccessful">Transaktion nicht erfolgreich</string>
+    <string name="dialog_title_unknown_error">Unbekannter Fehler</string>
+    <string name="discount_code"> Rabattcodes</string>
+    <string name="dispaly_shiping_address">Lieferanschrift</string>
+    <string name="dispaly_shiping_contactNumber">Versandkontaktnummer</string>
+    <string name="dispaly_shiping_country">Versandland</string>
+    <string name="dispaly_shiping_firstName">Versandname</string>
+    <string name="dispaly_shiping_lastname">Versandname</string>
+    <string name="dispaly_shiping_state">Versandort</string>
+    <string name="dispaly_shiping_zipcode">Versand Postleitzahl</string>
+    <string name="display_address">Adresse</string>
+    <string name="display_billing_and_shiping"><![CDATA[Billing&]]>Lieferanschrift</string>
+    <string name="display_city">Stadt</string>
+    <string name="display_contact_no"> Kontakt Nummer</string>
+    <string name="display_country">Land</string>
+    <string name="display_email_address"> E-Mail-Addresse</string>
+    <string name="display_first_name">Vorname</string>
+    <string name="display_grand_total">Gesamtsumme</string>
+    <string name="display_items_in_order">Artikel im bestellen</string>
+    <string name="display_last_name">Nachname</string>
+    <string name="display_order_date">Auftragsdatum</string>
+    <string name="display_orderid">Auftragsnummer</string>
+    <string name="display_payment_method">Bezahlverfahren</string>
+    <string name="display_shipping_and_handling"> Versandkosten</string>
+    <string name="display_shipping_different">Versand an andere Adresse</string>
+    <string name="display_shipping_method">Versandart</string>
+    <string name="display_state">Bundesland</string>
+    <string name="display_status">Status</string>
+    <string name="display_submit">einreichen</string>
+    <string name="display_subtotal">Zwischensumme</string>
+    <string name="display_tax">Steuer</string>
+    <string name="display_tax_amount">Steuer</string>
+    <string name="display_view_all_order">Alle Bestellungen</string>
+    <string name="display_zipcode"> Postleitzahl</string>
+    <string name="downloadable_billing_header">ZUSAMMENFASSUNG ORDER</string>
+    <string name="downloadable_text">Wählen Sie Artikel zum Download:</string>
+    <string name="edit_">Bearbeiten</string>
+    <string name="edit_address">Adresse bearbeiten</string>
+    <string name="edit_address_header">PROFIL BEARBEITEN</string>
+    <string name="edit_edit">BEARBEITEN</string>
+    <string name="enter">Eingeben</string>
+    <string name="enter_coupon">Geben Sie den Coupon</string>
+    <string name="enter_state">Geben Sie Staat</string>
+    <string name="enter_your_coupon_code">Geben Sie Ihren Gutschein-Code, wenn Sie einen haben,</string>
+    <string name="error_message">Dieses Feld wird benötigt.</string>
+    <string name="error_message_service">Server reagiert nicht! Bitte versuchen Sie es später noch einmal!</string>
+    <string name="error_message_wrong">Etwas ist schief gelaufen. Bitte versuche es erneut</string>
+    <string name="exp_date"> Haltbarkeitsdatum</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Sonstiges"</string>
+    <string name="feature_product_text">AUSGEWÄHLTE PRODUKTE</string>
+    <string name="filter_by">FILTERN NACH :</string>
+    <string name="filter_not_avaiblable">Filter nicht verfügbar</string>
+    <string name="first_to_review">e der erste Beurteilung dieses Produkts</string>
+    <string name="forget_password">Passwort vergessen ?</string>
+    <string name="forgot_password_header">PASSWORT VERGESSEN</string>
+    <string name="google_plus_failed">Google+ Anmeldung fehlgeschlagen</string>
+    <string name="grand_total">Gesamtsumme</string>
+    <string name="grouped">Gruppiert</string>
+    <string name="hello_world">Hallo Welt</string>
+    <string name="hint_email"> E-Mail-Addresse</string>
+    <string name="hint_fname">Vorname</string>
+    <string name="hint_last"> Nachname</string>
+    <string name="hint_password">Passwort</string>
+    <string name="home">ZUHAUSE</string>
+    <string name="home_s">Zuhause</string>
+    <string name="in_stock">Auf Lager</string>
+    <string name="internet_connection">Internetverbindung</string>
+    <string name="internet_not_avalable">Sie haben keine Internetverbindung </string>
+    <string name="invalidCoupon"> ist ungültig</string>
+    <string name="invalid_card_error_message">Ungültige Kartennummer.</string>
+    <string name="invalid_expDate_message">Abgelaufene Karte.</string>
+    <string name="issue_loading">Es ist ein Fehler aufgetreten. Melden Sie sich ab und versuchen Sie es später!</string>
+    <string name="item_added">Ihr Produkt wird in den Warenkorb gelegt</string>
+    <string name="item_already_added"> Artikel bereits hinzugefügt</string>
+    <string name="item_already_added_to_cart"> Artikel ist bereits hinzugefügt</string>
+    <string name="item_text"> Artikel</string>
+    <string name="least_quantity">Mindestmenge ausgewählt</string>
+    <string name="least_quantity_selected">Mindestmenge ausgewählt, klicken Sie auf Position löschen zu entfernen.</string>
+    <string name="location_icon"> Location Icon</string>
+    <string name="login">Anmeldung</string>
+    <string name="login_header">ANMELDUNG</string>
+    <string name="login_to_add_wishlist">Login Artikel Zur Wunschliste hinzufügen</string>
+    <string name="login_to_review">Bitte anmelden Produkt zu bewerten >> </string>
+    <string name="login_to_wishlist">Bitte loggen Sie sich in der Wunschliste</string>
+    <string name="login_with_facebook">Mit Facebook einloggen</string>
+    <string name="login_with_googleplus">Einloggen mit Google+</string>
+    <string name="logout">Ausloggen</string>
+    <string name="make_transaction">Bestätigen und zahlen</string>
+    <string name="manu_rateapp">Bewerte diese App</string>
+    <string name="manual_payment_header">Zahlungsinformationen</string>
+    <string name="manual_payment_subtitle">Geben Sie Informationen manuell</string>
+    <string name="max_quantity">Maximale Anzahl ausgewählt</string>
+    <string name="menu_refresh">auffrischen</string>
+    <string name="menu_wishlist">Wishlist </string>
+    <string name="mobile_icon"> Mobile Device Icon</string>
+    <string name="my_cart_message">Dein Wagen ist leer</string>
+    <string name="my_downloads">Meine Downloads</string>
+    <string name="my_downloads_header">Meine Downloads</string>
+    <string name="my_order">Meine Bestellung</string>
+    <string name="my_order_header">MEINE BEFEHLE</string>
+    <string name="mydownloads_orderremain">Bestellen Sie bleiben</string>
+    <string name="new_password">Neues Kennwort</string>
+    <string name="new_product_text">NEUE PRODUKTE</string>
+    <string name="new_user_signup">Neuer Benutzer  ? Anmelden</string>
+    <string name="no_contact_entered">Keine Kontaktdetails hinzugefügt.</string>
+    <string name="no_default_address_found">Keine Standardadresse gefunden</string>
+    <string name="no_description_added">Keine Beschreibung hinzugefügt</string>
+    <string name="no_downloads_product">Keine Downloadable Products</string>
+    <string name="no_order_place">keine Aufträge erteilt</string>
+    <string name="no_spec_provided">Keine Beschreibung angegeben</string>
+    <string name="no_transactions"> Keine Transaktionen zur Anzeige</string>
+    <string name="no_wishlist_product">Keine Produkte in der Wunschliste</string>
+    <string name="off">aus</string>
+    <string name="ok">OK</string>
+    <string name="old_password">Altes Passwort</string>
+    <string name="one_downloadable_allowed">Bitte füllen Sie diesen Auftrag vor anderen Artikel zu bestellen.</string>
+    <string name="or">oder</string>
+    <string name="order_review_header">ORDER REVIEW</string>
+    <string name="order_status">Bestell-Status</string>
+    <string name="order_summary">Bestellübersicht</string>
+    <string name="order_summary_title"> BESTELLÜBERSICHT</string>
+    <string name="out_of_stock">Ausverkauft</string>
+    <string name="pass_length_must_be_more_than_six">Passwort muss mindestens 6 Zeichen</string>
+    <string name="password">Passwort</string>
+    <string name="password_Required">Bitte Passwort eingeben</string>
+    <string name="password_icon"> Kennwort Icon</string>
+    <string name="password_length">Das Passwort muss mindestens 6 Zeichen lang sein</string>
+    <string name="payment_cancel">Bitte wählen Sie Zahlungsmethode und versuchen Sie es erneut</string>
+    <string name="payment_fails">Ihre Zahlung wurde storniert. Bitte versuchen Sie es erneut</string>
+    <string name="payment_information">Zahlungsinformationen</string>
+    <string name="payment_return">Payment cancelled.Please eine Option wählen und versuchen Sie es erneut!</string>
+    <string name="payment_type_header">BEZAHLVERFAHREN</string>
+    <string name="pdp_review_review_detail">Lassen Sie uns Ihre Meinung mit,:</string>
+    <string name="pdp_specifications">PRODUKT TECHNISCHE DATEN</string>
+    <string name="please_enter_coupon">Bitte Code eingeben</string>
+    <string name="please_fill_the_form">Füllen Sie das Formular Ihre Bestellung abzuschließen</string>
+    <string name="please_provide_your_registered_email">Bitte geben Sie registrierte E-Mail Ihr Passwort abrufen</string>
+    <string name="please_select"> Bitte auswählen</string>
+    <string name="price">Preis</string>
+    <string name="price_discount">Der Verkauf von Preis %1$s</string>
+    <string name="privacy_policy">Datenschutz-Bestimmungen</string>
+    <string name="proceed"> Vorgehen</string>
+    <string name="product_detail_header">Produktdetail</string>
+    <string name="product_name">Produktname</string>
+    <string name="product_name_mycart"> Produktname in meinem Warenkorb</string>
+    <string name="product_options_header"> Mögliche Optionen</string>
+    <string name="products_text"> Produkte</string>
+    <string name="progress_dialog_message_processing_transaction">Verarbeitung Transaktions. . .</string>
+    <string name="progress_dialog_title_please_wait">Warten Sie mal . . .</string>
+    <string name="quantity_">Quantité</string>
+    <string name="radio_btn_as_guest">Kasse Als Gast</string>
+    <string name="radio_btn_create_account">Ein Konto erstellen</string>
+    <string name="radio_btn_signin">Anmelden</string>
+    <string name="read_less">LESE WENIGER</string>
+    <string name="read_more">WEITERLESEN</string>
+    <string name="receipt_card_number_text">Kartennummer</string>
+    <string name="receipt_card_type_text"> Speicherkarten-Typ</string>
+    <string name="receipt_date_text">Datum</string>
+    <string name="receipt_transaction_id_text">Transaktions-ID</string>
+    <string name="receipt_transaction_total">GESAMT</string>
+    <string name="recycler_view_amount_text">Menge</string>
+    <string name="recycler_view_line">Recyclerview Linie</string>
+    <string name="recycler_view_transactionID_text">Transaktions-ID:</string>
+    <string name="refund_button_text">RÜCKERSTATTUNG</string>
+    <string name="refunded_text">Erstattet</string>
+    <string name="related_product_text">verwandte Produkte</string>
+    <string name="required">Erforderlich</string>
+    <string name="reset_">zurückstellen</string>
+    <string name="retrive_your_password">Rufen Sie Ihr Passwort</string>
+    <string name="return_privacy_policy"> Zurück Datenschutz</string>
+    <string name="review_nickname">Fügen Sie Ihren Namen</string>
+    <string name="review_order_header">Kommentieren</string>
+    <string name="review_price">PREIS</string>
+    <string name="review_quality">QUALITÄT</string>
+    <string name="review_summary">Bewertung Zusammenfassung</string>
+    <string name="review_value">VALUE</string>
+    <string name="search">SUCHE</string>
+    <string name="search_hint"> Suche Produkte</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Suchen"</string>
+    <string name="search_s">Suche</string>
+    <string name="select_">WÄHLEN</string>
+    <string name="select_payment">Wählen Sie Zahlungs</string>
+    <string name="select_select">WÄHLEN</string>
+    <string name="select_shiping">Wählen Sie Versandart</string>
+    <string name="select_small">Wählen</string>
+    <string name="selling_price">Verkaufspreis</string>
+    <string name="ship_handle">Versandkosten</string>
+    <string name="shiping_address">Lieferanschrift</string>
+    <string name="shipping_same_address_header">VERSCHIFFEN-METHODE</string>
+    <string name="shipping_type">Verladungs</string>
+    <string name="shop_now">jetzt einkaufen</string>
+    <string name="show_password">Passwort anzeigen</string>
+    <string name="sign_up_header">ANMELDEN</string>
+    <string name="sign_up_now">Jetzt anmelden</string>
+    <string name="signin">Anmelden</string>
+    <string name="slogan">Akzeptieren Sie Zahlungen. Irgendwo</string>
+    <string name="snackbar_action_refresh">AKTUALISIEREN</string>
+    <string name="snackbar_action_retry">WIEDERHOLEN</string>
+    <string name="snackbar_text_failed_load_transactions">Unfähig Transaktionen zu laden</string>
+    <string name="snackbar_text_no_network_connection">Keine Netzwerk Verbindung</string>
+    <string name="snackbar_text_successful_refund">Transaktion erfolgreich zurückerstattet </string>
+    <string name="snackbar_text_successful_transaction">Transaktion war erfolgreich</string>
+    <string name="snackbar_text_successful_void">Transaktion erfolgreich für ungültig erklärt</string>
+    <string name="snackbar_text_unsuccessful_refund">Transaktion nicht möglich erstatten</string>
+    <string name="snackbar_text_unsuccessful_void">Transaktion nicht möglich ungültig</string>
+    <string name="sort_">Sortieren</string>
+    <string name="special_price"> Sonderangebot</string>
+    <string name="state">Bundesland</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="still_loading_detail">Artikel Noch Loading!</string>
+    <string name="store_icon">Shop Icon</string>
+    <string name="store_view_empty"> Kein Shop Ansichten verfügbar</string>
+    <string name="submit">einreichen</string>
+    <string name="term_condition">Allgemeine Geschäftsbedingungen</string>
+    <string name="thank_you_for_placing_order"> Vielen Dank für Ihre Bestellung mit uns in Verbindung setzen werden unser Bestes tun, es zu folgenden Adresse zu liefern.</string>
+    <string name="total"> Gesamt</string>
+    <string name="total_reviews">%1$s</string>
+    <string name="txt_a_z">Name(A-Z)</string>
+    <string name="txt_amount_payble">Bezahlbarer Betrag</string>
+    <string name="txt_city">Stadt</string>
+    <string name="txt_contact_number">Kontakt Nummer</string>
+    <string name="txt_country"> Land</string>
+    <string name="txt_current_password">Aktuelles Passwort</string>
+    <string name="txt_direction">Richtung</string>
+    <string name="txt_download">Herunterladen</string>
+    <string name="txt_email_id">E-Mail</string>
+    <string name="txt_label">Etikette</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_no_product_found">Kein Produkt gefunden</string>
+    <string name="txt_order_id">Auftragsnummer</string>
+    <string name="txt_posion">Position</string>
+    <string name="txt_price_">Preis</string>
+    <string name="txt_price_high_low">Preis (Hoch-Niedrig)</string>
+    <string name="txt_price_l_h">Preis (Niedrig-Hoch)</string>
+    <string name="txt_reorder">Nachbestellung</string>
+    <string name="txt_see_more">Weitere</string>
+    <string name="txt_sort_by">Sortiere nach</string>
+    <string name="txt_sort_products">Sort Products</string>
+    <string name="txt_value">Wert</string>
+    <string name="txt_view_order">Sehen Sie die Bestellung</string>
+    <string name="txt_z_a">Name (Z-A)</string>
+    <string name="update_">Aktualisieren</string>
+    <string name="username">Benutzername</string>
+    <string name="validCoupon">(%1$s) erfolgreich angewendet.</string>
+    <string name="valid_card_message">Gültige Kartennummer </string>
+    <string name="validate_write_review_message">Bitte geben Sie bitte oben obligatorischen Optionen</string>
+    <string name="view_">Aussicht</string>
+    <string name="viewreviews">Alle Bewertungen ansehen  >> </string>
+    <string name="void_button_text">LEERE</string>
+    <string name="voided_text">Sinnentleerte </string>
+    <string name="welcome_header">BENUTZERPROFIL</string>
+    <string name="wishlist_header">Chanti</string>
+    <string name="write_review">SCHREIBEN SIE EINE BEWERTUNG</string>
+    <string name="write_review_message">WIE SIE diesen Artikel?</string>
+    <string name="write_review_message_failure">Bitte versuchen Sie es irgendwann After-!</string>
+    <string name="writereview">Bewertung schreiben</string>
+    <string name="you_are_exceeded_number_products">Sie haben Anzahl der Produkte überschritten</string>
+    <string name="zipcode">Postleitzahl</string>
+    <string name="zipcode_hint"> 5-stellige Zahl</string>
+    <string name="zipcode_length_error_message">Geben Sie eine 6-stellige Nummer.</string>
+</resources>

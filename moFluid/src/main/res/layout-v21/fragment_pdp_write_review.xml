@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/padding_pdp_heading"
+    android:paddingStart="@dimen/padding_pdp_quantity">
+
+    <TextView
+        android:id="@+id/txtv_write_review_product_name"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:paddingStart="5dp"
+        android:layout_height="wrap_content"
+        android:text="PRODUCT NAME"
+        android:textColor="@color/font_pdp_product_name"
+        android:textSize="@dimen/font_size_level_one"/>
+
+    <TextView
+        android:id="@+id/txtv_write_review_message"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/font_pdp_product_name"
+        android:paddingStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/write_review_message"
+        android:textSize="@dimen/pdp_review_no_review"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/bg_home_grey_color" />
+
+    <LinearLayout
+        android:id="@+id/ll_quality_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="8dp"
+        android:weightSum="100">
+        <TextView
+            android:id="@+id/quality_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/review_quality"
+            android:paddingTop="8dp"
+            android:paddingStart="5dp"
+            android:textColor="@color/font_pdp_product_name"
+            android:textSize="@dimen/font_pdp_review_description"
+            android:paddingEnd="20dp"/>
+
+        <RatingBar
+            android:id="@+id/quality_ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="3"
+            android:stepSize="1"
+            android:numStars="5"
+            android:clickable="false"
+            android:isIndicator="false"
+            style="@style/Base.Widget.AppCompat.RatingBar.Indicator"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_value_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="8dp"
+        android:weightSum="100">
+        <TextView
+            android:id="@+id/value_rating"
+            android:layout_width="wrap_content"
+            android:paddingStart="5dp"
+            android:layout_height="match_parent"
+            android:text="@string/review_value"
+            android:paddingTop="8dp"
+            android:textColor="@color/font_pdp_product_name"
+            android:textSize="@dimen/font_pdp_review_description"
+            android:paddingEnd="37dp"/>
+
+        <RatingBar
+            android:id="@+id/value_ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4"
+            android:stepSize="1"
+            android:numStars="5"
+            android:clickable="false"
+            android:isIndicator="false"
+            style="@style/Base.Widget.AppCompat.RatingBar.Indicator"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_price_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="8dp"
+        android:weightSum="100">
+        <TextView
+            android:id="@+id/price_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/review_price"
+            android:paddingStart="5dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/font_pdp_product_name"
+            android:textSize="@dimen/font_pdp_review_description"
+            android:paddingEnd="44dp"/>
+
+        <RatingBar
+            android:id="@+id/price_ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="5"
+            android:numStars="5"
+            android:stepSize="1"
+            android:clickable="false"
+            android:isIndicator="false"
+            style="@style/Base.Widget.AppCompat.RatingBar.Indicator"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/bg_home_grey_color" />
+
+    <TextView
+        android:id="@+id/txtv_write_review_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/review_summary"
+        android:textAlignment="viewStart"
+        android:textSize="@dimen/pdp_review_no_review"
+        android:paddingStart="5dp"
+        android:textColor="@color/font_pdp_product_name"
+        android:paddingBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/edt_write_review_summary"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:maxLines="1"
+        android:textAlignment="viewStart"
+        android:layout_marginEnd="10dp"
+        android:textSize="16sp"
+        android:paddingStart="10dp"
+        android:text="hello"
+        android:background="@drawable/custome_rectangle_border"/>
+
+
+    <TextView
+        android:id="@+id/txtv_write_review_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pdp_review_review_detail"
+        android:textAlignment="viewStart"
+        android:paddingStart="5dp"
+        android:textSize="@dimen/pdp_review_no_review"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/font_pdp_product_name"/>
+
+    <EditText
+        android:id="@+id/edt_write_review_description"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:lines="3"
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+        android:textAlignment="viewStart"
+        android:layout_marginEnd="10dp"
+        android:textSize="16sp"
+        android:paddingStart="10dp"
+        android:scrollHorizontally="false"
+        android:background="@drawable/custome_rectangle_border"
+        />
+
+
+    <TextView
+        android:id="@+id/txtv_write_review_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/review_nickname"
+        android:paddingStart="5dp"
+        android:textAlignment="viewStart"
+        android:textSize="@dimen/pdp_review_no_review"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/font_pdp_product_name"/>
+
+    <EditText
+        android:id="@+id/edt_write_review_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textAlignment="viewStart"
+        android:maxLines="1"
+        android:layout_marginEnd="10dp"
+        android:textSize="16sp"
+        android:paddingStart="10dp"
+        android:background="@drawable/custome_rectangle_border"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_write_review_submit"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_pdp_review_description"
+            android:text="@string/submit"
+            android:background="@color/btn_buy_now"
+            android:textColor="@color/bg_white"/>
+    </RelativeLayout>
+
+</LinearLayout>
+    </ScrollView>
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

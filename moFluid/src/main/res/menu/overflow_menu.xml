@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/wishlist"
+        android:title="@string/menu_wishlist"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about_us"
+        android:title="@string/about_us"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/privacy_policy"
+        android:title="@string/privacy_policy"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/apprate"
+        android:title="@string/manu_rateapp"
+        app:showAsAction="never" />
+
+    <!---<item
+        android:id="@+id/refresh"
+        android:showAsAction="never"
+        android:title="@string/menu_refresh" /> -->
+
+    <item
+        android:id="@+id/menu_cart"
+        android:title="@string/cart_s"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_account"
+        android:title="@string/account_s"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_home"
+        android:title="@string/home_s"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/search_s"
+        android:visible="false"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/term_conditions"
+        android:title="@string/term_condition"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/return_privacy_policy"
+        android:title="@string/return_privacy_policy"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/change_currency"
+        android:title="@string/choose_currency"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/select_currency"
+        android:title="Select Currency"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/select_lang"
+        android:title="Select Language"
+        android:visible="false"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:padding="10dp">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEXTO"
+        android:id="@+id/tvMessage"
+        android:textAlignment="viewStart"
+        android:textDirection="anyRtl"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="@dimen/font_size_level_two"
+        android:textColor="#ff000000"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/ok"
+        android:id="@+id/btnBialog"
+        android:textDirection="rtl"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tvMessage"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/custome_btn_background"
+        android:textSize="@dimen/font_size_level_two"
+        android:textColor="@color/font_white_color" />
+
+</RelativeLayout>

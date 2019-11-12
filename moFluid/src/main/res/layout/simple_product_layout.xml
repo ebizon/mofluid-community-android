@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:widget="http://schemas.android.com/tools"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+
+
+    <ScrollView
+        android:id="@+id/scrollview_pdp_product_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_pdp_cart_options"
+        android:fadeScrollbars="false"
+        android:fadingEdge="none"
+        android:paddingTop="@dimen/padding_pdp_heading"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:id="@+id/scrollable_pdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/pdp_product_detail_wishlist"
+                android:id="@+id/product"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_pdp_images_product"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/product"
+                android:paddingBottom="@dimen/padding_pdp_layouts"
+                android:paddingTop="@dimen/padding_pdp_layouts">
+                <include layout="@layout/pdp_images_product" />
+            </RelativeLayout>
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/rl_pdp_product_detail_wishlist"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_below="@+id/rl_pdp_images_product"-->
+                <!--android:paddingBottom="@dimen/padding_pdp_heading"-->
+                <!--android:background="@color/bg_white">-->
+            <!--</RelativeLayou;t>-->
+            <RelativeLayout
+                android:id="@+id/rl_pdp_load_data"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/rl_pdp_images_product"
+                android:visibility="gone">
+
+                <RelativeLayout
+                android:id="@+id/rl_pdp_price_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="8dp"
+                android:paddingTop="2dp">
+                <include layout="@layout/pdp_price_quantity" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/line_above_extra"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone"
+                android:layout_below="@+id/rl_pdp_price_quantity"
+                android:background="@color/bg_home_grey_color" />
+
+            <RelativeLayout
+                android:id="@+id/rl_pdp_extra_options"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/line_above_extra"
+                android:layout_marginBottom="20dp"
+                android:visibility="gone">
+
+                <include layout="@layout/pdp_extra_options" />
+            </RelativeLayout>
+
+                <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:layout_below="@+id/rl_pdp_extra_options"-->
+                <!--android:background="@color/bg_home_grey_color" />-->
+
+                <RelativeLayout
+                    android:id="@+id/rl_pdp_cart_options" 
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rl_pdp_extra_options">
+                    <include layout="@layout/pdp_add_cart_options" />
+                </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_pdp_description"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/rl_pdp_cart_options"
+                android:paddingBottom="@dimen/card_field_padding"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+                <include layout="@layout/pdp_description" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_pdp_description"
+                android:background="@color/bg_home_grey_color" />
+
+
+            <RelativeLayout
+                android:id="@+id/rl_pdp_specifications"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/rl_pdp_description"
+                android:layout_marginBottom="10dp">
+                <include layout="@layout/pdp_specifications"/>
+            </RelativeLayout>
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_pdp_specifications"
+                android:background="@color/bg_home_grey_color"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_pdp_review"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_pdp_specifications"
+                android:paddingBottom="@dimen/padding_pdp_layouts"
+                android:layout_marginTop="10dp"
+                android:visibility="gone">
+
+                <include layout="@layout/pdp_review" />
+
+            </RelativeLayout>
+                <!--&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+                <RelativeLayout
+                    android:id="@+id/fl_feature_product_container"
+                    android:layout_below="@+id/rl_pdp_review"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_new_feature"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <include layout="@layout/pdp_related_products"/>
+
+
+                </RelativeLayout>
+                <!--&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ll_show_progress_bar"
+                android:layout_below="@+id/rl_pdp_images_product"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="40dp"
+                android:layout_marginEnd="40dp"
+                android:visibility="gone">
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/no_product_found"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_white"
+        android:visibility="gone">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:text="@string/txt_no_product_found"
+            android:textColor="@color/font_pdp_favourite"/>
+
+    </RelativeLayout>
+
+
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:/home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/libs/anet-java-sdk-android-2.0.5.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/moFluid/libs/anet-java-sdk-android-2.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

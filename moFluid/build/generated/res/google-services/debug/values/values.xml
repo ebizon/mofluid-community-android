@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">218338150021-v0ggau4jpf6m81moq3ain7e856req05h.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://mofluid-d51b0.firebaseio.com</string>
+    <string name="ga_trackingId" translatable="false">UA-96552513-1</string>
+    <string name="gcm_defaultSenderId" translatable="false">218338150021</string>
+    <string name="google_api_key" translatable="false">AIzaSyCRlwnHiR2Bf11TPoHbOC7xN7M4_TgRar8</string>
+    <string name="google_app_id" translatable="false">1:218338150021:android:4fc0a823f683837e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCRlwnHiR2Bf11TPoHbOC7xN7M4_TgRar8</string>
+    <string name="google_storage_bucket" translatable="false">mofluid-d51b0.appspot.com</string>
+</resources>

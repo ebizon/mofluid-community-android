@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/no_products_found"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/txt_no_product_found"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/txtSortBy"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height_sortby_row"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="top|center_horizontal"
+                android:background="@color/app_color"
+                android:text="@string/txt_sort_by"
+                android:textColor="#000"
+                android:textSize="@dimen/font_size_level_two"
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_below="@+id/llFilter"
+                android:layout_gravity="top"
+                android:layout_marginTop="5dp"
+                android:layout_height="match_parent">
+
+            <GridView
+                android:id="@+id/gridViewProductdetailList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/white"
+                android:fadingEdge="none"
+                android:horizontalSpacing="0dp"
+                android:listSelector="@null"
+                android:numColumns="@integer/column_number"
+                android:paddingBottom="@dimen/padding_home_1"
+                android:paddingStart="@dimen/padding_home_1"
+                android:paddingEnd="@dimen/padding_home_1"
+                android:smoothScrollbar="true"
+                android:verticalSpacing="2dp">
+            </GridView>
+
+            <ProgressBar
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/progressBar_paging"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:layout_height="45dp"
+                android:layout_weight="20"/>
+
+                <ProgressBar
+                    android:layout_gravity="center"
+                    android:id="@+id/progressBar_normal"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:visibility="visible"
+                    android:layout_height="45dp"
+                    android:layout_weight="20"/>
+
+            <ListView
+                android:id="@+id/MyLisView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/llFilter"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="top"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                android:background="@android:color/white"
+                android:fadingEdge="none">
+
+            </ListView>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/llFilter"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true">
+
+                <RelativeLayout
+                    android:id="@+id/rlFilter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_grey"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgFilter"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/filter" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_toEndOf="@+id/imgFilter"
+                        android:text="@string/filter_"
+                        android:textColor="@color/font_black_color"
+                        android:textSize="@dimen/font_size_level_two"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/DarkGray"/>
+
+                <RelativeLayout
+                    android:id="@+id/rlSort"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_grey"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgSort"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/sort" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_toEndOf="@+id/imgSort"
+                        android:text="@string/sort_"
+                        android:textColor="@color/font_black_color"
+                        android:textSize="@dimen/font_size_level_two"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_grey"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgView"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/square" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_toEndOf="@+id/imgView"
+                        android:text="@string/view_"
+                        android:textColor="@color/font_black_color"
+                        android:textSize="@dimen/font_size_level_two"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

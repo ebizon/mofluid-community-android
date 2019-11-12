@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:paddingEnd="8dp"
+    android:paddingStart="@dimen/padding_pdp_quantity">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btn_write_review_all"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:visibility="visible"
+        android:text="@string/writereview"
+        android:textAllCaps="false"
+        android:textDirection="anyRtl"
+        android:layout_alignParentTop="true"
+        android:textAlignment="viewStart"
+        android:background="@drawable/button_border_rounded"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/pdp_review_no_review" />
+
+            <TextView
+                android:id="@+id/txt_not_login_review"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:text="@string/login_to_review"
+                android:textColor="@color/font_pdp_product_name"
+                android:gravity="center_vertical"
+                android:visibility="invisible"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/padding_pdp_heading"
+                android:textSize="@dimen/pdp_review_no_review"/>
+
+    <TextView
+        android:id="@+id/txtv_all_review_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_reviews"
+        android:textDirection="anyRtl"
+        android:layout_below="@+id/btn_write_review_all"
+        android:textAlignment="viewStart"
+        android:textColor="@color/font_pdp_product_name"
+        android:textSize="@dimen/font_pdp_review_description"
+        android:paddingStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/line_below_all_review"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_home_grey_color"
+        android:layout_below="@+id/txtv_all_review_total"
+        android:layout_marginBottom="7dp"/>
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_below_all_review" >
+
+    <com.github.paolorotolo.expandableheightlistview.ExpandableHeightListView
+        android:id="@+id/listv_pdp_all_review_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:fadingEdge="none"
+        android:visibility="visible"></com.github.paolorotolo.expandableheightlistview.ExpandableHeightListView>
+
+    </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_specifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_pdp_heading"
+    android:paddingStart="@dimen/padding_pdp_quantity"
+        android:weightSum="100">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pdp_specifications"
+            android:textSize="@dimen/font_size_product_description"
+            android:id="@+id/txt_specification_pdp"
+            android:textColor="@color/font_pdp_product_name"
+            android:paddingTop="@dimen/padding_pdp_heading"
+            android:paddingEnd="4dp"
+            android:paddingBottom="4dp"
+            />
+        <ImageView
+            android:id="@+id/imgv_pdp_specifications_open"
+            android:layout_width="24dp"
+            android:foregroundGravity="center"
+            android:layout_alignParentEnd="true"
+            android:layout_height="24dp"
+            android:clickable="false"
+            android:visibility="gone"
+            android:paddingEnd="@dimen/cms_spacing"
+            android:paddingTop="@dimen/padding_pdp_heading"
+            android:src="@drawable/arrow_right_pdp" />
+
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtv_pdp_product_specification"
+        android:text="@string/no_spec_provided"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/font_pdp_favourite"
+        android:visibility="gone"
+        android:paddingTop="@dimen/padding_pdp_layouts"
+        android:textSize="@dimen/description_value"
+        android:paddingEnd="4dp"
+        android:paddingBottom="4dp"
+        android:maxLines="3"/>
+
+    </LinearLayout>
+
+

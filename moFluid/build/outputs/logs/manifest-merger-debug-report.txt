@@ -1,0 +1,743 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:2:1-114:12
+MERGED from [com.google.firebase:firebase-core:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-core-10.2.1.aar/c3a70dcc94069c73eb7ff1ae4e8230d9/AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/3a65388945123e8d97a5a7b36872d43d/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/c2ca98fae1631c4afc465725ae620c5e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.android:facebook-login:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-login-4.42.0.aar/a47982892c05cc83371823e5dbbae8fe/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/57ac74ee589c380636204c1edc185b28/AndroidManifest.xml:21:1-37:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/8a515a8f676a86fecf4c627ae876a274/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-alpha3.aar/f54d7c2554c342388165970d163ddcc9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:2:1-28:12
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-10.2.1.aar/f81d8c4ccecb565d8851511e55be2ecc/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-plus:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-plus-10.2.1.aar/959b3687fc207679e786c190d6d17ede/AndroidManifest.xml:16:1-19:12
+MERGED from [com.github.splatte:ViewPagerIndicator:3.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/ViewPagerIndicator-3.0.0.aar/973547ed4cbbd46f1ee102ea4958bb7e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.0.aar/dc8e9459e7ba084183d807884a021fa5/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-10.2.1.aar/ae4431ee9dfeafbf34e22e7c2eb1fa99/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/26df3ddd068f76e1a8ad80cde76319ed/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.1.aar/a5d8e299a9a4c5012b3dea20d47d27e9/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/d60a3630421d6638d6121fd7cdbcc3fd/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/e1a461e4cb1f3ec7fbaca0c06410e29a/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/af63f8015c41cb99f961db3d346c452d/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/0d62b9087161fafd2dab3f73ff003055/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/e91e4d99cea4a233b5082ab5bdb20686/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/924e95bfe5338b5714a6b72877aa1d88/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-alpha3.aar/aa7915451de695e93cd13c1dd01e1f02/AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:1.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/circleimageview-1.2.1.aar/5526e767098968e8f682445c1626b6db/AndroidManifest.xml:2:1-11:12
+MERGED from [at.blogc:expandabletextview:1.0.3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/expandabletextview-1.0.3.aar/efebcb5f33393768e351f6498c04aacc/AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.paolorotolo:expandableheightlistview:1.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/expandableheightlistview-1.0.0.aar/73c3642b949fa2ed38081d2a527370df/AndroidManifest.xml:2:1-11:12
+MERGED from [com.stripe:stripe-android:2.1.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/stripe-android-2.1.0.aar/c954e9f0f940b19af7344dcdbb50a8ef/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/e6f45a636634573a72f0cfef84768d82/AndroidManifest.xml:2:1-11:12
+MERGED from [com.desarrollodroide:fragmenttransactionextended:1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/fragmenttransactionextended-1.aar/7806d78c8da74e425f68bebc8c2609ed/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-fragment:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha3.aar/02f23d72c33e831eb5aebb482180de9d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha3.aar/b5f200188287f595a9ec220d45a516f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha3.aar/008cadf4208cda4cadb0db77645feec4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-alpha3.aar/dd3fd80a715d58792098fab75d0c0575/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-alpha3.aar/13cfa2c08a81fec22cff7310e97074d4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-core:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/390cd263dbb11c301c90f5e90adbb43f/AndroidManifest.xml:21:1-53:12
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-alpha3.aar/b809a401bf78bb5eea9ad09a4c3c3303/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-alpha3.aar/04caeec0626a01003db62563074ff48b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1239143e32b99f571f0043fb4c7f523f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-alpha3.aar/8685ca543c6b6c892d684b0391fde2f7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-alpha3.aar/d11e76c56773e728830b66cfba2a621b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-alpha3.aar/24f6d6546a0677e2a7953ac1a2b488ed/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-alpha3.aar/717e959e1eba80559a803702c64d1691/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-alpha3.aar/10079ad81bd59c70669fa450e5ca2567/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-alpha3.aar/b73c402805c85b565e435c0ce1cc8247/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-alpha3.aar/a80829b1da8092cf020f2f01947cf8e4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-alpha3.aar/20b6a299a7e989278f87758467c7d603/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-alpha3.aar/f8f7fee2cd83e83c7a1d47046ec85585/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/b53d8e652aa9d790cf602cccdfe3f3d5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/fa1d33bef5978b197f9b201abb15e192/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-alpha3.aar/faed0ffb16193e55ae93c0b6ed70fba4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-alpha3.aar/1cd3a5ebcd5a8ce4904bd5950ddf8401/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/3718bcbaeac7f6eab6890e77f84a6001/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c820a4a7b4959b38443bbb35ac1b2f1f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/49f73cdfcaefcd65c5fe968b54fd0224/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-alpha3.aar/43ef13499e7e0578eadff6ac574db733/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-alpha3.aar/8e1dbc95084aece7e66aa9b7674df876/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/print-28.0.0-alpha3.aar/eb6d83b7e0b8f61bb83683a18df13d1f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/02a20244ebe885c5b679c6ecfc4e1f3a/AndroidManifest.xml:17:1-25:12
+MERGED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:2:1-114:12
+	package
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml
+		INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:5:5-33
+		INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml
+		INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:4:5-34
+		INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml
+		INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:10:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.1.aar/a5d8e299a9a4c5012b3dea20d47d27e9/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.1.aar/a5d8e299a9a4c5012b3dea20d47d27e9/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:7:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:9:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.1.aar/a5d8e299a9a4c5012b3dea20d47d27e9/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.1.aar/a5d8e299a9a4c5012b3dea20d47d27e9/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:8:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:9:5-74
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:9:22-71
+application
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:11:5-113:19
+MERGED from [com.google.firebase:firebase-core:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-core-10.2.1.aar/c3a70dcc94069c73eb7ff1ae4e8230d9/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-core-10.2.1.aar/c3a70dcc94069c73eb7ff1ae4e8230d9/AndroidManifest.xml:5:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/3a65388945123e8d97a5a7b36872d43d/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/3a65388945123e8d97a5a7b36872d43d/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/c2ca98fae1631c4afc465725ae620c5e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/c2ca98fae1631c4afc465725ae620c5e/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.android:facebook-login:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-login-4.42.0.aar/a47982892c05cc83371823e5dbbae8fe/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-login-4.42.0.aar/a47982892c05cc83371823e5dbbae8fe/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/57ac74ee589c380636204c1edc185b28/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/57ac74ee589c380636204c1edc185b28/AndroidManifest.xml:28:5-35:19
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:12:5-26:19
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:12:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-10.2.1.aar/f81d8c4ccecb565d8851511e55be2ecc/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-10.2.1.aar/f81d8c4ccecb565d8851511e55be2ecc/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-plus:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-plus-10.2.1.aar/959b3687fc207679e786c190d6d17ede/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-plus-10.2.1.aar/959b3687fc207679e786c190d6d17ede/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-messaging:17.3.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.0.aar/dc8e9459e7ba084183d807884a021fa5/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.0.aar/dc8e9459e7ba084183d807884a021fa5/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/26df3ddd068f76e1a8ad80cde76319ed/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/26df3ddd068f76e1a8ad80cde76319ed/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.1.aar/a5d8e299a9a4c5012b3dea20d47d27e9/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.1.aar/a5d8e299a9a4c5012b3dea20d47d27e9/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/d60a3630421d6638d6121fd7cdbcc3fd/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/d60a3630421d6638d6121fd7cdbcc3fd/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/e1a461e4cb1f3ec7fbaca0c06410e29a/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/e1a461e4cb1f3ec7fbaca0c06410e29a/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/af63f8015c41cb99f961db3d346c452d/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/af63f8015c41cb99f961db3d346c452d/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/0d62b9087161fafd2dab3f73ff003055/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/0d62b9087161fafd2dab3f73ff003055/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/e91e4d99cea4a233b5082ab5bdb20686/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/e91e4d99cea4a233b5082ab5bdb20686/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/924e95bfe5338b5714a6b72877aa1d88/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/924e95bfe5338b5714a6b72877aa1d88/AndroidManifest.xml:22:5-26:19
+MERGED from [de.hdodenhof:circleimageview:1.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/circleimageview-1.2.1.aar/5526e767098968e8f682445c1626b6db/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:1.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/circleimageview-1.2.1.aar/5526e767098968e8f682445c1626b6db/AndroidManifest.xml:9:5-20
+MERGED from [at.blogc:expandabletextview:1.0.3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/expandabletextview-1.0.3.aar/efebcb5f33393768e351f6498c04aacc/AndroidManifest.xml:26:5-20
+MERGED from [at.blogc:expandabletextview:1.0.3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/expandabletextview-1.0.3.aar/efebcb5f33393768e351f6498c04aacc/AndroidManifest.xml:26:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/e6f45a636634573a72f0cfef84768d82/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/e6f45a636634573a72f0cfef84768d82/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-core:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/390cd263dbb11c301c90f5e90adbb43f/AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/390cd263dbb11c301c90f5e90adbb43f/AndroidManifest.xml:28:5-51:19
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/3718bcbaeac7f6eab6890e77f84a6001/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/3718bcbaeac7f6eab6890e77f84a6001/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/02a20244ebe885c5b679c6ecfc4e1f3a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/02a20244ebe885c5b679c6ecfc4e1f3a/AndroidManifest.xml:22:5-23:19
+MERGED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:21:5-26:19
+MERGED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:21:5-26:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/3718bcbaeac7f6eab6890e77f84a6001/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:15:9-41
+	android:largeHeap
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:16:9-33
+	android:icon
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:18:9-40
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:12:9-46
+activity#com.mofluid.magento2.SplashActivity
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:19:9-30:20
+	android:screenOrientation
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:22:13-49
+	android:label
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:21:13-45
+	android:windowSoftInputMode
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:24:13-65
+	android:theme
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:23:13-44
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:20:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:28:27-74
+activity#com.mofluid.magento2.MainActivity
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:31:9-33:52
+	android:screenOrientation
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:33:13-49
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:32:13-41
+activity#com.mofluid.magento2.LoginDemo
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:34:9-35:51
+	android:screenOrientation
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:35:13-49
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:34:19-44
+activity#com.mofluid.demo.ForgotPassword
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:36:9-37:51
+	android:screenOrientation
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:37:13-49
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:36:19-65
+activity#com.ebizon.fluid.StripePayment.StripePaymentActivity
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:38:9-39:51
+	android:screenOrientation
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:39:13-49
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:38:19-86
+activity#com.mofluid.fragment_new.WebViewFragment
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:40:9-41:51
+	android:screenOrientation
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:40:19-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:42:9-44:71
+	android:value
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:44:13-68
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:43:13-58
+meta-data#com.google.android.gms.wallet.api.enabled
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:45:9-47:36
+	android:value
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:47:13-33
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:46:13-69
+activity#com.mofluid.magento2.WebViewActivity
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:48:9-52:61
+	android:screenOrientation
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:52:13-49
+	android:label
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:50:13-45
+	android:launchMode
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:51:13-48
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:49:13-44
+meta-data#base_url
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:53:9-55:48
+	android:value
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:55:13-45
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:54:13-36
+meta-data#store_id
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:56:9-58:48
+	android:value
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:58:13-45
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:57:13-36
+meta-data#currency_code
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:59:9-61:53
+	android:value
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:61:13-50
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:60:13-41
+meta-data#system_language
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:62:9-64:34
+	android:value
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:64:13-31
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:63:13-43
+meta-data#com.google.android.gms.version
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:65:9-67:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/924e95bfe5338b5714a6b72877aa1d88/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/924e95bfe5338b5714a6b72877aa1d88/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:67:13-66
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:66:13-58
+activity#sampleapplication.LoginActivity2
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:68:9-72:20
+	android:screenOrientation
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:71:13-49
+	android:label
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:70:13-45
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:69:13-60
+activity#sampleapplication.NavigationActivity
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:73:9-77:61
+	android:screenOrientation
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:77:13-49
+	android:label
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:75:13-62
+	android:launchMode
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:76:13-43
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:74:13-64
+activity#sampleapplication.TransactionResultActivity
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:78:9-81:61
+	android:screenOrientation
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:81:13-49
+	android:label
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:80:13-70
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:79:13-71
+activity#com.ebizon.fluid.StripePayment.StripeUserActivity
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:83:9-86
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:83:19-83
+activity#com.mofluid.magento2.AddressList
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:84:9-88:61
+	android:screenOrientation
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:88:13-49
+	android:label
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:86:13-64
+	android:theme
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:87:13-44
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:85:13-40
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:90:9-91:54
+	android:value
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:91:13-52
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:90:20-65
+activity#com.facebook.FacebookActivity
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:93:9-96:48
+MERGED from [com.facebook.android:facebook-common:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/57ac74ee589c380636204c1edc185b28/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/57ac74ee589c380636204c1edc185b28/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:96:13-45
+	android:configChanges
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:94:13-113
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/57ac74ee589c380636204c1edc185b28/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:93:19-63
+activity#com.facebook.CustomTabActivity
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:97:9-106:20
+MERGED from [com.facebook.android:facebook-common:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/57ac74ee589c380636204c1edc185b28/AndroidManifest.xml:34:9-67
+MERGED from [com.facebook.android:facebook-common:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/57ac74ee589c380636204c1edc185b28/AndroidManifest.xml:34:9-67
+	android:exported
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:99:13-36
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:98:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:100:13-105:29
+action#android.intent.action.VIEW
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:101:17-69
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:101:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:102:17-76
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:102:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:103:17-78
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:103:27-75
+data
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:104:17-75
+	android:scheme
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:104:23-72
+service#com.mofluid.utility_new.MofluidFirebaseMessagingService
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:108:9-112:19
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:108:18-88
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:109:13-111:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:110:17-78
+	android:name
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml:110:25-75
+uses-sdk
+INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml
+INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-core:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-core-10.2.1.aar/c3a70dcc94069c73eb7ff1ae4e8230d9/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-core-10.2.1.aar/c3a70dcc94069c73eb7ff1ae4e8230d9/AndroidManifest.xml:4:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/3a65388945123e8d97a5a7b36872d43d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/3a65388945123e8d97a5a7b36872d43d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/c2ca98fae1631c4afc465725ae620c5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/c2ca98fae1631c4afc465725ae620c5e/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-login:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-login-4.42.0.aar/a47982892c05cc83371823e5dbbae8fe/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-login-4.42.0.aar/a47982892c05cc83371823e5dbbae8fe/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/57ac74ee589c380636204c1edc185b28/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/57ac74ee589c380636204c1edc185b28/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/8a515a8f676a86fecf4c627ae876a274/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/8a515a8f676a86fecf4c627ae876a274/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-alpha3.aar/f54d7c2554c342388165970d163ddcc9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-alpha3.aar/f54d7c2554c342388165970d163ddcc9/AndroidManifest.xml:20:5-44
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-10.2.1.aar/f81d8c4ccecb565d8851511e55be2ecc/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-10.2.1.aar/f81d8c4ccecb565d8851511e55be2ecc/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-plus-10.2.1.aar/959b3687fc207679e786c190d6d17ede/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-plus-10.2.1.aar/959b3687fc207679e786c190d6d17ede/AndroidManifest.xml:17:5-43
+MERGED from [com.github.splatte:ViewPagerIndicator:3.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/ViewPagerIndicator-3.0.0.aar/973547ed4cbbd46f1ee102ea4958bb7e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.splatte:ViewPagerIndicator:3.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/ViewPagerIndicator-3.0.0.aar/973547ed4cbbd46f1ee102ea4958bb7e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:17.3.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.0.aar/dc8e9459e7ba084183d807884a021fa5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.0.aar/dc8e9459e7ba084183d807884a021fa5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-10.2.1.aar/ae4431ee9dfeafbf34e22e7c2eb1fa99/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-10.2.1.aar/ae4431ee9dfeafbf34e22e7c2eb1fa99/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/26df3ddd068f76e1a8ad80cde76319ed/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/26df3ddd068f76e1a8ad80cde76319ed/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.1.aar/a5d8e299a9a4c5012b3dea20d47d27e9/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.1.aar/a5d8e299a9a4c5012b3dea20d47d27e9/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/d60a3630421d6638d6121fd7cdbcc3fd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/d60a3630421d6638d6121fd7cdbcc3fd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/e1a461e4cb1f3ec7fbaca0c06410e29a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/e1a461e4cb1f3ec7fbaca0c06410e29a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/af63f8015c41cb99f961db3d346c452d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/af63f8015c41cb99f961db3d346c452d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/0d62b9087161fafd2dab3f73ff003055/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/0d62b9087161fafd2dab3f73ff003055/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/e91e4d99cea4a233b5082ab5bdb20686/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/e91e4d99cea4a233b5082ab5bdb20686/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/924e95bfe5338b5714a6b72877aa1d88/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/924e95bfe5338b5714a6b72877aa1d88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-alpha3.aar/aa7915451de695e93cd13c1dd01e1f02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-alpha3.aar/aa7915451de695e93cd13c1dd01e1f02/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:1.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/circleimageview-1.2.1.aar/5526e767098968e8f682445c1626b6db/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:1.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/circleimageview-1.2.1.aar/5526e767098968e8f682445c1626b6db/AndroidManifest.xml:5:5-7:41
+MERGED from [at.blogc:expandabletextview:1.0.3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/expandabletextview-1.0.3.aar/efebcb5f33393768e351f6498c04aacc/AndroidManifest.xml:22:5-24:41
+MERGED from [at.blogc:expandabletextview:1.0.3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/expandabletextview-1.0.3.aar/efebcb5f33393768e351f6498c04aacc/AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.paolorotolo:expandableheightlistview:1.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/expandableheightlistview-1.0.0.aar/73c3642b949fa2ed38081d2a527370df/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.paolorotolo:expandableheightlistview:1.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/expandableheightlistview-1.0.0.aar/73c3642b949fa2ed38081d2a527370df/AndroidManifest.xml:7:5-9:41
+MERGED from [com.stripe:stripe-android:2.1.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/stripe-android-2.1.0.aar/c954e9f0f940b19af7344dcdbb50a8ef/AndroidManifest.xml:7:5-9:41
+MERGED from [com.stripe:stripe-android:2.1.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/stripe-android-2.1.0.aar/c954e9f0f940b19af7344dcdbb50a8ef/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.volley:volley:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/e6f45a636634573a72f0cfef84768d82/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/e6f45a636634573a72f0cfef84768d82/AndroidManifest.xml:7:5-43
+MERGED from [com.desarrollodroide:fragmenttransactionextended:1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/fragmenttransactionextended-1.aar/7806d78c8da74e425f68bebc8c2609ed/AndroidManifest.xml:5:5-7:41
+MERGED from [com.desarrollodroide:fragmenttransactionextended:1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/fragmenttransactionextended-1.aar/7806d78c8da74e425f68bebc8c2609ed/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha3.aar/02f23d72c33e831eb5aebb482180de9d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha3.aar/02f23d72c33e831eb5aebb482180de9d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha3.aar/b5f200188287f595a9ec220d45a516f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha3.aar/b5f200188287f595a9ec220d45a516f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha3.aar/008cadf4208cda4cadb0db77645feec4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha3.aar/008cadf4208cda4cadb0db77645feec4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-alpha3.aar/dd3fd80a715d58792098fab75d0c0575/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-alpha3.aar/dd3fd80a715d58792098fab75d0c0575/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-alpha3.aar/13cfa2c08a81fec22cff7310e97074d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-alpha3.aar/13cfa2c08a81fec22cff7310e97074d4/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-core:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/390cd263dbb11c301c90f5e90adbb43f/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/390cd263dbb11c301c90f5e90adbb43f/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-alpha3.aar/b809a401bf78bb5eea9ad09a4c3c3303/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-alpha3.aar/b809a401bf78bb5eea9ad09a4c3c3303/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-alpha3.aar/04caeec0626a01003db62563074ff48b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-alpha3.aar/04caeec0626a01003db62563074ff48b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1239143e32b99f571f0043fb4c7f523f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1239143e32b99f571f0043fb4c7f523f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-alpha3.aar/8685ca543c6b6c892d684b0391fde2f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-alpha3.aar/8685ca543c6b6c892d684b0391fde2f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-alpha3.aar/d11e76c56773e728830b66cfba2a621b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-alpha3.aar/d11e76c56773e728830b66cfba2a621b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-alpha3.aar/24f6d6546a0677e2a7953ac1a2b488ed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-alpha3.aar/24f6d6546a0677e2a7953ac1a2b488ed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-alpha3.aar/717e959e1eba80559a803702c64d1691/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-alpha3.aar/717e959e1eba80559a803702c64d1691/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-alpha3.aar/10079ad81bd59c70669fa450e5ca2567/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-alpha3.aar/10079ad81bd59c70669fa450e5ca2567/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-alpha3.aar/b73c402805c85b565e435c0ce1cc8247/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-alpha3.aar/b73c402805c85b565e435c0ce1cc8247/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-alpha3.aar/a80829b1da8092cf020f2f01947cf8e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-alpha3.aar/a80829b1da8092cf020f2f01947cf8e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-alpha3.aar/20b6a299a7e989278f87758467c7d603/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-alpha3.aar/20b6a299a7e989278f87758467c7d603/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-alpha3.aar/f8f7fee2cd83e83c7a1d47046ec85585/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-alpha3.aar/f8f7fee2cd83e83c7a1d47046ec85585/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/b53d8e652aa9d790cf602cccdfe3f3d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/b53d8e652aa9d790cf602cccdfe3f3d5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/fa1d33bef5978b197f9b201abb15e192/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/fa1d33bef5978b197f9b201abb15e192/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-alpha3.aar/faed0ffb16193e55ae93c0b6ed70fba4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-alpha3.aar/faed0ffb16193e55ae93c0b6ed70fba4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-alpha3.aar/1cd3a5ebcd5a8ce4904bd5950ddf8401/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-alpha3.aar/1cd3a5ebcd5a8ce4904bd5950ddf8401/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/3718bcbaeac7f6eab6890e77f84a6001/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/3718bcbaeac7f6eab6890e77f84a6001/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c820a4a7b4959b38443bbb35ac1b2f1f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c820a4a7b4959b38443bbb35ac1b2f1f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/49f73cdfcaefcd65c5fe968b54fd0224/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/49f73cdfcaefcd65c5fe968b54fd0224/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-alpha3.aar/43ef13499e7e0578eadff6ac574db733/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-alpha3.aar/43ef13499e7e0578eadff6ac574db733/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-alpha3.aar/8e1dbc95084aece7e66aa9b7674df876/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-alpha3.aar/8e1dbc95084aece7e66aa9b7674df876/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/print-28.0.0-alpha3.aar/eb6d83b7e0b8f61bb83683a18df13d1f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/print-28.0.0-alpha3.aar/eb6d83b7e0b8f61bb83683a18df13d1f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/02a20244ebe885c5b679c6ecfc4e1f3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/02a20244ebe885c5b679c6ecfc4e1f3a/AndroidManifest.xml:20:5-44
+MERGED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:7:5-9:41
+MERGED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml
+INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml
+		INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml
+		ADDED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml
+		INJECTED from /home/akhilesh/DevEnv/Git_Repository/MofluidCommunity/MofluidCommunity-Android/mofluid-community-android/moFluid/src/main/AndroidManifest.xml
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/57ac74ee589c380636204c1edc185b28/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/57ac74ee589c380636204c1edc185b28/AndroidManifest.xml:33:19-68
+activity#com.paypal.android.sdk.payments.PaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:13:9-84
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:13:19-81
+activity#com.paypal.android.sdk.payments.PaymentMethodActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:14:9-90
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:14:19-87
+activity#com.paypal.android.sdk.payments.PaymentConfirmActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:15:9-91
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:15:19-88
+activity#com.paypal.android.sdk.payments.LoginActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:16:9-82
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:16:19-79
+activity#com.paypal.android.sdk.payments.PayPalFuturePaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:17:9-96
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:17:19-93
+activity#com.paypal.android.sdk.payments.FuturePaymentConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:18:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:18:19-94
+activity#com.paypal.android.sdk.payments.FuturePaymentInfoActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:19:9-94
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:19:19-91
+activity#com.paypal.android.sdk.payments.PayPalProfileSharingActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:20:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:20:19-94
+activity#com.paypal.android.sdk.payments.ProfileSharingConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:21:9-98
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:21:19-95
+service#com.paypal.android.sdk.payments.PayPalService
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.12.5] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/paypal-android-sdk-2.12.5.aar/a0bd3f1833440cad0269cd26005f3fa9/AndroidManifest.xml:24:13-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-10.2.1.aar/f81d8c4ccecb565d8851511e55be2ecc/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-10.2.1.aar/f81d8c4ccecb565d8851511e55be2ecc/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-10.2.1.aar/f81d8c4ccecb565d8851511e55be2ecc/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-10.2.1.aar/f81d8c4ccecb565d8851511e55be2ecc/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-10.2.1.aar/f81d8c4ccecb565d8851511e55be2ecc/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-10.2.1.aar/f81d8c4ccecb565d8851511e55be2ecc/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-10.2.1.aar/f81d8c4ccecb565d8851511e55be2ecc/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-10.2.1.aar/f81d8c4ccecb565d8851511e55be2ecc/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-auth-10.2.1.aar/f81d8c4ccecb565d8851511e55be2ecc/AndroidManifest.xml:24:18-63
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.0.aar/dc8e9459e7ba084183d807884a021fa5/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.0.aar/dc8e9459e7ba084183d807884a021fa5/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.0.aar/dc8e9459e7ba084183d807884a021fa5/AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.1.aar/a5d8e299a9a4c5012b3dea20d47d27e9/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.1.aar/a5d8e299a9a4c5012b3dea20d47d27e9/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.1.aar/a5d8e299a9a4c5012b3dea20d47d27e9/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.1.aar/a5d8e299a9a4c5012b3dea20d47d27e9/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:27:17-104
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.1.aar/a5d8e299a9a4c5012b3dea20d47d27e9/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.1.aar/a5d8e299a9a4c5012b3dea20d47d27e9/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.1.aar/acd40fc12a24fe23b4c2c2dd869f96e0/AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:26:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.0.aar/c535788b988122a49f136e3e1acb0a22/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/e1a461e4cb1f3ec7fbaca0c06410e29a/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/e1a461e4cb1f3ec7fbaca0c06410e29a/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/e1a461e4cb1f3ec7fbaca0c06410e29a/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/e1a461e4cb1f3ec7fbaca0c06410e29a/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/af63f8015c41cb99f961db3d346c452d/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/af63f8015c41cb99f961db3d346c452d/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/af63f8015c41cb99f961db3d346c452d/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/af63f8015c41cb99f961db3d346c452d/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.1] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/af63f8015c41cb99f961db3d346c452d/AndroidManifest.xml:11:13-77
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/390cd263dbb11c301c90f5e90adbb43f/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/390cd263dbb11c301c90f5e90adbb43f/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/390cd263dbb11c301c90f5e90adbb43f/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/390cd263dbb11c301c90f5e90adbb43f/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/390cd263dbb11c301c90f5e90adbb43f/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/390cd263dbb11c301c90f5e90adbb43f/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/390cd263dbb11c301c90f5e90adbb43f/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/390cd263dbb11c301c90f5e90adbb43f/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/390cd263dbb11c301c90f5e90adbb43f/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/390cd263dbb11c301c90f5e90adbb43f/AndroidManifest.xml:48:25-92
+uses-permission#android.permission.CAMERA
+ADDED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:11:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:12:22-63
+uses-feature#android.hardware.camera
+ADDED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:15:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:18:9-57
+activity#io.card.payment.CardIOActivity
+ADDED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:22:9-24:66
+	android:configChanges
+		ADDED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:24:13-63
+	android:name
+		ADDED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:23:13-58
+activity#io.card.payment.DataEntryActivity
+ADDED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:25:9-70
+	android:name
+		ADDED from [io.card:android-sdk:5.1.2] /home/akhilesh/.gradle/caches/transforms-1/files-1.1/android-sdk-5.1.2.aar/d5a3fd0de97f6fccc18269dfdf57201a/AndroidManifest.xml:25:19-67

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scroll_user_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants">
+
+        <TextView
+            android:id="@+id/line_at_top"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/app_color"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_profile_name_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_marginTop="5dp"
+            android:paddingTop="4dp">
+
+            <include  android:id="@+id/layout_userprofile"
+                layout="@layout/userprofile_name_edit" />
+
+            <TextView
+                android:id="@+id/line_below_name"
+                android:layout_below="@+id/layout_userprofile"
+                android:layout_width="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_height="10dp"
+                android:background="@color/app_color"/>
+
+        </RelativeLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/rl_profile_basic_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_pdp_layouts"
+            android:layout_marginTop="4dp"
+            android:visibility="invisible"
+            android:layout_below="@+id/rl_profile_name_edit">
+
+            <include
+                android:id="@+id/layout_basic_info"
+                layout="@layout/userprofile_basic_info"/>
+
+            <!--<TextView-->
+                <!--android:id="@+id/line_below_basic_info"-->
+                <!--android:layout_below="@+id/layout_basic_info"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:background="@drawable/grey_bottom_line"/>-->
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/rl_profile_tab_options"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/padding_pdp_layouts"
+            android:visibility="invisible"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/rl_profile_basic_info">
+
+            <include layout="@layout/userprofile_tab_options" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <FrameLayout
+        android:id="@+id/layout_error_service_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/issue_loading"
+            android:textAlignment="center"
+            android:textSize="@dimen/font_size_level_two"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end|bottom"
+            android:textAlignment="center"
+            android:text="@string/logout"
+            android:clickable="true"
+            android:layout_marginEnd="10dp"
+            android:textSize="@dimen/logout_button"
+            android:id="@+id/btn_logout_error"
+            android:layout_marginBottom="30dp"
+            android:background="@color/btn_buy_now"
+            android:textColor="@color/bg_white"/>
+
+
+    </FrameLayout>
+
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

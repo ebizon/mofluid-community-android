@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_pdp_review"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_pdp_heading"
+    android:paddingStart="@dimen/padding_pdp_quantity">
+
+    <LinearLayout
+        android:id="@+id/ll_pdp_review_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtv_review_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font_pdp_product_name"
+            android:textSize="@dimen/font_size_product_description"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/customer_reviews"/>
+
+        <Button
+            android:id="@+id/btn_write_review"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_write_review"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/writereview"
+            android:textAllCaps="false"
+            android:background="@drawable/button_border_rounded"
+            android:layout_marginTop="8dp"
+            android:textSize="@dimen/featured_new_product_font_size" />
+
+        <TextView
+            android:id="@+id/txt_not_login_review"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:text="@string/login_to_review"
+            android:textColor="@color/font_pdp_product_name"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            android:layout_marginBottom="@dimen/padding_pdp_heading"
+            android:textSize="@dimen/pdp_review_no_review"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_avg_rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp"
+            android:visibility="gone"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:gravity="center_vertical"
+            android:id="@+id/average_rating_value"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/total_reviews"
+            android:textColor="@color/font_pdp_product_name"
+            android:textSize="@dimen/font_review"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="10dp">
+                <RatingBar
+                    android:id="@+id/average_ratingbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:rating="3"
+                    android:numStars="5"
+                    android:clickable="false"
+                    android:isIndicator="true"
+                    style="@style/Mofluid.Base.Widget.AppCompat.RatingBar.Indicator"/>
+
+
+                <TextView
+                android:id="@+id/txtv_total_Reviews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:paddingEnd="4dp"
+                android:layout_marginTop="1dp"
+                android:text="5/5"
+                android:textColor="@color/font_pdp_product_name"
+                android:textSize="@dimen/featured_new_product_font_size" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--<TextView-->
+            <!--android:id="@+id/average_rating_value"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="1dp"-->
+            <!--android:paddingRight="4dp"-->
+            <!--android:layout_marginTop="1dp"-->
+            <!--android:text="5/5"-->
+            <!--android:textColor="@color/font_pdp_product_name"-->
+            <!--android:textSize="@dimen/featured_new_product_font_size" />-->
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/bg_home_grey_color"
+        android:layout_marginBottom="3dp" />
+
+    <ListView
+        android:id="@+id/listv_pdp_review_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:fadingEdge="none"></ListView>
+
+
+    <LinearLayout
+        android:id="@+id/ll_pdp_review_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="10dp">
+
+
+        <TextView
+            android:id="@+id/btn_view_all_reviews"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:paddingEnd="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/viewreviews"
+            android:textColor="@color/font_pdp_product_name"
+            android:background="@color/bg_white"
+            android:layout_marginBottom="2dp"
+            android:paddingStart="3dp"
+            android:visibility="gone"
+            android:textSize="@dimen/pdp_review_no_review" />
+
+        <TextView
+            android:id="@+id/first_to_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/first_to_review"
+            android:textColor="@color/font_pdp_product_name"
+            android:gravity="center"
+            android:visibility="gone"
+            android:padding="4dp"
+            android:layout_marginBottom="@dimen/padding_pdp_heading"
+            android:textSize="@dimen/pdp_review_no_review"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

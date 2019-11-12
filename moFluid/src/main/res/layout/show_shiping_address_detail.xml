@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtV_shipping_fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_show_shiping_addres" />
+    <TextView
+        android:id="@+id/txtV_shipping_lname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_show_shiping_addres" />
+    <TextView
+        android:id="@+id/txtV_shipping_fnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_show_shiping_addres" />
+    <TextView
+        android:id="@+id/txtV_shipping_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_show_shiping_addres"
+        android:text="edit_email_add"/>
+    <TextView
+
+        android:id="@+id/txtV_shipping_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_show_shiping_addres"
+        android:text="@string/edit_address"/>
+    <TextView
+        android:id="@+id/txtV_shipping_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_show_shiping_addres"
+        android:text="Country"/>
+
+    <TextView
+        android:id="@+id/txtV_shipping_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_show_shiping_addres"
+        android:text="edit_state"/>
+
+    <TextView
+        android:id="@+id/txtV_shipping_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_show_shiping_addres"
+        android:text="edit_city"
+        />
+
+    <TextView
+        android:id="@+id/txtV_shipping_zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_show_shiping_addres"
+        android:text="edit_zip"/>
+
+
+
+</LinearLayout>

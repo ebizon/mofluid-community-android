@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <CheckBox
+        android:id="@+id/checkboxId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:textSize="@dimen/font_size_level_two"
+        android:textColor="@color/font_black_color"
+        android:padding="10dp"
+        android:layout_marginStart="10dp"
+        android:button="@drawable/checkbox_selector"
+        android:text="Item Name"/>
+    <TextView
+        android:id="@+id/txtVIdCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_level_two"
+        android:visibility="gone"
+        android:textColor="@color/font_black_color"
+        android:gravity="start|center_vertical"
+        android:text="0"/>
+</LinearLayout>
+
